@@ -84,7 +84,7 @@ function Clientage() {
         Our Client Age
       </span>
 
-      <div className="w-full overflow-hidden text-center bg-[#b8b8b8] py-4">
+      <div className="w-full overflow-hidden text-center bg-gradient-to-r from-[#0A173B]/85 to-[#0025FF]/80 py-4">
         {/* Scrolling container */}
         <div className="flex items-center justify-start w-max animate-marquee">
           {/* Logo list - First loop */}

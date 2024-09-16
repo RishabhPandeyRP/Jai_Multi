@@ -1,8 +1,8 @@
-import heroImg from "../assets/heroImg.png"
-import h1 from "../assets/h1.svg"
-import h2 from "../assets/h1.svg"
-import h3 from "../assets/h1.svg"
-import h4 from "../assets/h1.svg"
+import heroImg from "../assets/trainImg2.jpg"
+import h1 from "../assets/hero1.svg"
+import h2 from "../assets/hero2.svg"
+import h3 from "../assets/hero3.svg"
+import h4 from "../assets/hero4.png"
 import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 import { useState } from "react"
@@ -49,12 +49,12 @@ const Hero = () => {
                 <div className="lg:flex absolute top-[70%] hidden  lg:left-[0%] lg:w-[100%] xl:left-[14%] xl:w-[70%]">
                     {
                         data?.map((item) => (
-                            <div className={`flex gap-7 xl:w-[70%] lg:w-[60%] py-2 text-white`} style={{ backgroundColor: `#${item.color}` }}>
-                                <div>
-                                    <img src={item.logo} alt="" />
+                            <div className={`flex justify-center items-center mx-auto  border-green-500  xl:w-[70%] lg:w-[60%] py-2 text-white`} style={{ backgroundColor: `#${item.color}` }}>
+                                <div className=" border-red-500">
+                                    <img src={item.logo} alt="" className="object-cover mx-auto " />
                                 </div>
 
-                                <div className="flex flex-col justify-center">
+                                <div className="flex flex-col justify-center  border-red-500">
                                     <div className="font-inter font-extralight text-[12px] w-[90%]">
                                         {item.heading}
                                     </div>
