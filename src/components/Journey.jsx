@@ -31,16 +31,27 @@ const Journey = () => {
 
 
     const [isFixed, setIsFixed] = useState(false);
+    const [scrollDirection, setScrollDirection] = useState('down');
 
     useEffect(() => {
+        let lastScrollY = window.scrollY;
+
         const handleScroll = () => {
             const trainElement = document.getElementById("train");
             const scrollY = window.scrollY;
             const windowHeight = window.innerHeight;
-            console.log(typeof windowHeight)
 
             // The point where the train should stop moving and become fixed
             const stopPoint = windowHeight / 2; // Middle of the viewport
+
+            // Update scroll direction
+            if (scrollY > lastScrollY) {
+                setScrollDirection('down');
+            } else if (scrollY < lastScrollY) {
+                setScrollDirection('up');
+            }
+
+            lastScrollY = scrollY;
 
             if (trainElement) {
                 const trainRect = trainElement.getBoundingClientRect();
@@ -104,18 +115,8 @@ const Journey = () => {
                     ))
                 }
 
-                {/* <div className="absolute top-[45%] left-[49.45%] w-[3%] h-[230%] border border-neutral-100 bg-gray-200 rounded-md -z-20">
-
-                </div> */}
 
             </div>
-
-            {/* train element */}
-
-            {/* <div className="fixed hidden top-[73%] left-[51%] lg:top-[80%] xl:top-[70%] -translate-x-1/2 -translate-y-1/4 -z-10 sm:hidden md:hidden lg:block xl:block">
-                <img src={train} alt="" srcset="" className="h-[250px] md:h-[70%] lg:h-[220px] xl:h-[80%]" loading="lazy" />
-
-            </div> */}
 
             {/* Train element */}
             <div
@@ -128,7 +129,8 @@ const Journey = () => {
                 <img
                     src={train}
                     alt="train"
-                    className="h-[250px] md:hidden lg:block lg:h-[80%] xl:h-[80%]"
+                    className={`h-[250px] md:hidden lg:block lg:h-[80%] xl:h-[80%] transform transition-transform duration-500 ${scrollDirection === 'up' ? 'rotate-180' : ''}`}
+                    
                     loading="lazy"
                 />
             </div>
