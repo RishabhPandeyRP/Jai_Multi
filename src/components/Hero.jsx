@@ -17,24 +17,28 @@ const Hero = () => {
             heading: "Number of couplers supplied",
             number: 30000,
             color: "17236A",
+            after:""
         },
         {
             logo: h2,
             heading: "Number of Knuckles Supplied",
             number: 50000,
             color: "0A173B",
+            after:""
         },
         {
             logo: h3,
             heading: "Experience in Manufacturing",
             number: 30,
             color: "17236A",
+            after:"Years"
         },
         {
             logo: h4,
             heading: "Daily Liquid Metal Pouring Capacity",
             number: 70,
             color: "0A173B",
+            after:"Tons"
         },
     ]
     return (
@@ -61,7 +65,7 @@ const Hero = () => {
                                     <div className="font-inter font-bold text-[24px]">
                                         {
                                             counterOn && <CountUp start={0} end={item.number} duration={2} delay={0}></CountUp>
-                                        }+
+                                        }+{item.after}
                                     </div>
                                 </div>
 
