@@ -1,0 +1,36 @@
+import train from "../assets/TrainSVG.svg"
+function Test() {
+    return (
+        <div className="w-[100%] h-[100vh] border border-red-500 flex justify-between px-16 py-3 overflow-y-scroll">
+            <div className="w-[30vw] h-fit border border-green-400 px-3 py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+            </div>
+            <div className="flex items-center -z-10 absolute top-[32%] left-[45%]  border-red-400 ">
+                <img src={train} alt="" />
+                {/* Top Blur */}
+                <div className="absolute top-0 left-0 w-full h-1/4 bg-gradient-to-b from-white/95 via-white/15 to-transparent"></div>
+
+                {/* Bottom Blur */}
+                <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-white/95 via-white/15 to-transparent"></div>
+            </div>
+            <div className="w-[30vw] h-fit border border-green-400 px-3 py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti pariatur voluptas quasi in unde ad natus minus cumque rem fugit officiis quos reiciendis, esse necessitatibus? Et ea eligendi consequatur porro voluptatibus molestias, at repellendus quam debitis corporis eaque nobis velit expedita in beatae cumque. Ratione doloremque, cumque iure, repellat ipsa natus nisi magnam ut dignissimos et voluptatem est sapiente!
+
+            </div>
+        </div>
+    )
+}
+
+export default Test;
