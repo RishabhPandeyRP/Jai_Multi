@@ -81,7 +81,7 @@ function Clientage() {
   return (
     <div className="flex flex-col bg-white gap-5 mt-[10%]">
       <span className="font-[600] text-[40px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px]">
-        Our Client Age
+        Our Clientage
       </span>
 
       <div className="w-full overflow-hidden text-center bg-gradient-to-r from-[#0A173B]/85 to-[#0025FF]/80 py-4">

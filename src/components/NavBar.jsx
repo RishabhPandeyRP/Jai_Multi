@@ -1,28 +1,3 @@
-// import logo from "../assets/logo.png"
-// const NavBar = ()=>{
-//     return(
-//         <div className="w-full py-2 border border-red-800 ">
-
-//             <div className="flex justify-between items-center pl-[3%]  border-green-500 w-[90%]">
-//             <img src={logo} alt="logo" className=" border-red-500"/>
-
-//             <div className=" border-red-500 w-[534Px] mx-auto text-[16px] font-medium font-inter flex justify-between ">
-//                 <span className="cursor-pointer">Home</span>
-//                 <span className="cursor-pointer">About</span>
-//                 <span className="cursor-pointer">Engine Parts</span>
-//                 <span className="cursor-pointer">Information</span>
-//                 <span className="cursor-pointer">Contact Us</span>
-//             </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default NavBar
-
-
-
-
 import { useState } from "react";
 import logo from "../assets/logo.png";
 
@@ -38,12 +13,31 @@ const NavBar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex  border-red-500 text-[16px] font-medium font-inter sm:space-x-4 md:space-x-6 lg:space-x-8 -ml-[10%]">
-                        <span className="cursor-pointer hover:text-blue-500">Home</span>
-                        <span className="cursor-pointer hover:text-blue-500">About Us</span>
-                        <span className="cursor-pointer hover:text-blue-500">Product Line</span>
-                        <span className="cursor-pointer hover:text-blue-500">Certifications</span>
-                        <span className="cursor-pointer hover:text-blue-500">Quality</span>
-                        <span className="cursor-pointer hover:text-blue-500">Contact Us</span>
+                        <span className="cursor-pointer  group ">
+                            <span>Home</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+                        <span className="cursor-pointer  group ">
+                            <span>About Us</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+                        <span className="cursor-pointer  group ">
+                            <span>Product Line</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+                        <span className="cursor-pointer  group ">
+                            <span>Certifications</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+                        <span className="cursor-pointer  group ">
+                            <span>Quality</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+                        <span className="cursor-pointer  group ">
+                            <span>Contact Us</span>
+                            <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        </span>
+
                     </div>
                 </div>
 
@@ -72,23 +66,29 @@ const NavBar = () => {
             {/* Mobile Menu */}
             {isOpen && (
                 <div className="md:hidden mt-2 space-y-4 px-4">
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        Home
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>Home</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        About
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>About Us</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        Product Line
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>Product line</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        Certifications
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>Certifications</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        Quality
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>Quality</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500">
-                        Contact Us
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                        <span>Contact Us</span>
+                        <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
                 </div>
             )}
