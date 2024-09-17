@@ -18,7 +18,8 @@ export default {
     },
     fontFamily:{
       raleway:["Raleway","sans-serif"],
-      inter:["Inter","sans-serif"]
+      inter:["Inter","sans-serif"],
+      newspaper:["Noticia Text","serif"]
     }
   },
   plugins: [],

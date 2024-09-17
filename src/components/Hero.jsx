@@ -42,10 +42,10 @@ const Hero = () => {
         },
     ]
     return (
-        <div className="w-full h-[75vh]  border-green-600 mb-[12%]">
+        <div className="w-full h-[75vh]  border-green-600 mb-[15%]">
             <img src={heroImg} alt="heroImg" className="w-full h-full border brightness-[70%] object-cover -z-10" />
 
-            <div className="absolute top-[25%] md:top-[35%] left-[5%] font-raleway text-[28px] md:text-[32px] text-white font-bold w-[55%] z-0">
+            <div className="absolute top-[25%] md:top-[35%] left-[5%] font-newspaper text-[31px] md:text-[38px] text-white font-bold w-[57%] z-0">
                 Pioneering innovation and precision engineering for Freight Couplers and Knuckles
             </div>
 
