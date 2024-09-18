@@ -102,7 +102,7 @@ const Journey = () => {
                                     {item.heading}
                                 </span>
 
-                                <span className="font-inter font-[400] text-[14px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-black/60 mt-2 md:w-[95%] md:mx-0 md:text-left sm:w-[95%] sm:mx-0 sm:text-left lg:w-[90%] lg:mx-0 lg:text-left">
+                                <span className="font-inter font-[400] text-[14px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-black/60 mt-2 md:w-[95%] md:mx-0  sm:w-[95%] sm:mx-0 sm:text-justify lg:w-[90%] lg:mx-0 ">
                                     {item.text}
                                 </span>
                             </div>
