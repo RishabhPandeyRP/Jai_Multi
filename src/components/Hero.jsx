@@ -42,23 +42,23 @@ const Hero = () => {
         },
     ]
     return (
-        <div className="w-full h-[75vh]  border-green-600 mb-[15%]">
+        <div className="w-full h-[80vh]  border-green-600 mb-[10%]">
             <img src={heroImg} alt="heroImg" className="w-full h-full border brightness-[70%] object-cover -z-10" />
 
             <div className="absolute top-[25%] md:top-[35%] left-[5%] font-newspaper text-[31px] md:text-[38px] text-white font-bold w-[57%] z-0">
-                Pioneering innovation and precision engineering for Freight Couplers and Knuckles
+                Pioneering Innovation and Precision Engineering for Freight Couplers and Knuckles
             </div>
 
             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
-                <div className="lg:flex absolute top-[70%] hidden  lg:left-[0%] lg:w-[100%] xl:left-[14%] xl:w-[70%]">
+                <div className="lg:flex absolute top-[75%] hidden  lg:left-[0%] lg:w-[100%] xl:left-[14%] xl:w-[70%]">
                     {
                         data?.map((item) => (
-                            <div className={`flex justify-center items-center mx-auto  border-green-500  xl:w-[70%] lg:w-[60%] py-2 text-white`} style={{ backgroundColor: `#${item.color}` }}>
+                            <div className={`flex justify-between px-2 items-center mx-auto   border-green-500  xl:w-[70%] lg:w-[60%] py-2 text-white`} style={{ backgroundColor: `#${item.color}` }}>
                                 <div className=" border-red-500">
-                                    <img src={item.logo} alt="" className="object-cover mx-auto " />
+                                    <img src={item.logo} alt="" className="object-cover mx-auto w-[70px] h-[70px]" />
                                 </div>
 
-                                <div className="flex flex-col justify-center  border-red-500">
+                                <div className="flex flex-col justify-center   border-red-500">
                                     <div className="font-inter font-extralight text-[12px] w-[90%]">
                                         {item.heading}
                                     </div>

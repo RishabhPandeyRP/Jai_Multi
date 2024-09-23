@@ -74,7 +74,7 @@ const Journey = () => {
     }, [isFixed]);
 
     return (
-        <div className="w-[81%] h-fit  border-blue-400 mx-auto relative bg-white -z-10 mb-[5%]">
+        <div className="w-[81%] h-fit  border-blue-400 mx-auto relative bg-white -z-10 mb-[1%]">
             {/* for heading and text */}
             <div className="flex flex-col gap-[10%] sm:gap-10 lg:gap-5  border-red-500 bg-white">
                 <span className="font-[600] text-[40px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF]            sm:text-[40px] lg:text-[52px] xl:text-[62px]  ">
@@ -84,15 +84,19 @@ const Journey = () => {
                     We have been manufacturing critical casting products for 30+ years. We take the pride in telling that we are leading manufacturers in Couplers and Knuckles for Indian Railways.
                 </span>
 
-                <button className="w-fit h-fit px-6 py-3 border border-[#0A173B] bg-[#0A173B] text-white mx-auto rounded-[4px] text-[16px] font-[600] font-inter mt-12 flex gap-3 justify-center items-baseline               sm:px-6 lg:px-10 sm:py-3 lg:py-4  sm:text-[16px] lg:text-[16px]  sm:mt-10  sm:gap-3 xl:mt-8">
+                {/* <button className="w-fit h-fit px-6 py-3 border border-[#0A173B] bg-[#0A173B] text-white mx-auto rounded-[4px] text-[16px] font-[600] font-inter mt-12 flex gap-3 justify-center items-baseline               sm:px-6 lg:px-10 sm:py-3 lg:py-4  sm:text-[16px] lg:text-[16px]  sm:mt-10  sm:gap-3 xl:mt-8">
                     <span>Request Demo</span>
 
                     <img src={goto} alt="icon" className="w-[10%] h-[10%]" loading="lazy" />
-                </button>
+                </button> */}
+
+                <div className=" border-red-500 w-full h-[50px]">
+
+                </div>
             </div>
 
             {/* for main content */}
-            <div className="w-[98%]   border-green-500 mx-auto  flex flex-col           h-auto mt-24 gap-16 sm:gap-20 lg:gap-24 ">
+            <div className="w-[98%]  py-4  border-green-500 mx-auto  flex flex-col           h-auto mt-15 gap-16 sm:gap-20 lg:gap-24 ">
                 {
                     data?.map((item, index) => (
                         <div className={`w-full flex justify-between items-center flex-col sm:flex-col ${index % 2 === 1 ? `lg:flex-row-reverse md:flex-row-reverse ` : `lg:flex-row md:flex-row `} gap-8 sm:gap-12`}>
@@ -135,14 +139,14 @@ const Journey = () => {
                 />
             </div>
 
-            <div className="absolute hidden top-[70%] left-[51%] lg:top-[32%] xl:top-[35%] -translate-x-1/2 -translate-y-[15%] -z-20 sm:hidden md:hidden lg:block xl:block  border-green-700">
-                <img src={r_track} alt="" srcset="" className="-z-20 h-[250px] md:h-[70%] lg:h-[75%] xl:h-[80%]" loading="lazy" />
+            <div className="absolute hidden top-[70%] left-[51%] lg:top-[29%] xl:top-[30%] -translate-x-1/2 -translate-y-[15%] -z-20 sm:hidden md:hidden lg:block xl:block  border-green-700">
+                <img src={r_track} alt="" srcset="" className="-z-20 h-[250px] md:h-[70%] lg:h-[77%] xl:h-[80%]" loading="lazy" />
 
 
 
-                <div className="absolute top-0 left-0 w-full h-1/4 bg-gradient-to-b from-white/95 via-white/15 to-transparent"></div>
+                <div className="absolute top-0 left-0 w-full h-1/4 bg-gradient-to-b from-white/95 via-white/15 to-transparent z-40"></div>
 
-                <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-white via-white/70 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-white via-white/70 to-transparent z-10"></div>
             </div>
 
         </div>

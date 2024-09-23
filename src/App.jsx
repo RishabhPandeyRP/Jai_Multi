@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <>
+    <div className="">
       {/* <Test></Test> */}
       <NavBar></NavBar>
       <Hero></Hero>
@@ -22,7 +22,7 @@ function App() {
       <Clientage></Clientage>
       <Contactus></Contactus>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 
