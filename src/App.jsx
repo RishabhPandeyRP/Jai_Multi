@@ -13,6 +13,8 @@ import FirstPage from './components/FirstPage'
 import ContactPage from './components/ContactPage'
 import Infrastructure from './components/Infrastructure'
 import CertificationsList from './components/CertificationsList'
+import Casting from './components/Casting'
+import ElectroMechDiv from './components/ElectroMechDiv'
 
 function App() {
   
@@ -35,6 +37,8 @@ function App() {
         <Route path="/contactpage" element={<ContactPage></ContactPage>} />
         <Route path="/infra" element={<Infrastructure></Infrastructure>} />
         <Route path="/certification" element={<CertificationsList></CertificationsList>}/>
+        <Route path="/casting" element={<Casting></Casting>} />
+        <Route path="/elctroMechDiv" element={<ElectroMechDiv></ElectroMechDiv>} />
       </Routes>
     </div>
   )

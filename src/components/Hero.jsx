@@ -16,28 +16,28 @@ const Hero = () => {
             logo: h1,
             heading: "Number of couplers supplied",
             number: 30000,
-            color: "17236A",
+            color: "0A173B",
             after:""
         },
         {
             logo: h2,
             heading: "Number of Knuckles Supplied",
             number: 50000,
-            color: "0A173B",
+            color: "17236A",
             after:""
         },
         {
             logo: h3,
             heading: "Experience in Manufacturing",
             number: 30,
-            color: "17236A",
+            color: "0A173B",
             after:"Years"
         },
         {
             logo: h4,
             heading: "Daily Liquid Metal Pouring Capacity",
             number: 70,
-            color: "0A173B",
+            color: "17236A",
             after:"Tons"
         },
     ]

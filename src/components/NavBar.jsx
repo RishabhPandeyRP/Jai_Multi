@@ -188,18 +188,18 @@ const NavBar = () => {
 
                             {/* Dropdown Menu */}
                             {dropdownOpen && (
-                                <div className="absolute left-0 mt-2 w-40 bg-[#0A173B] text-white rounded-md shadow-lg">
+                                <div className="absolute left-0 mt-2 w-[220px] bg-[#0A173B] text-white rounded-md shadow-lg font-raleway text-[14px]">
                                     <Link
-                                        to="/option1"
+                                        to="/casting"
                                         className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
                                     >
-                                        Option 1
+                                        Castings
                                     </Link>
                                     <Link
-                                        to="/option2"
+                                        to="/elctroMechDiv"
                                         className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
                                     >
-                                        Option 2
+                                        Electro - Mechanical division 
                                     </Link>
                                 </div>
                             )}

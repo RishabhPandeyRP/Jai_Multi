@@ -62,8 +62,8 @@ const Infrastructure = () => {
 
                     {
                         data?.map((item, index) => (
-                            <div className="flex gap-5 " key={index}>
-                                <div className="flex flex-col gap-5 pr-[10%]" data-aos="fade-right">
+                            <div className={`flex  ${index%2 == 0 ? "flex-row-reverse gap-28":"gap-5"}`}  key={index}>
+                                <div className={`flex flex-col gap-5 ${index%2 == 0 ? "pr-[0%]":"pr-[10%]"}`} data-aos="fade-right">
                                     <span className="text-[32px] font-[600] text-[#312865]" >
                                         {item.heading}
                                     </span>
