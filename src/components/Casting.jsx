@@ -60,7 +60,7 @@ const Casting = () => {
             duration: 1000,
             offset: 300
         });
-
+        window.scrollTo(0, 0);
 
     }, []);
 

@@ -11,11 +11,12 @@ import { useEffect } from "react"
 
 const AboutUs = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         AOS.init({
             duration: 1000,
             offset: 150
         });
-    })
+    },[])
 
     return (
         <div className=" border-red-500">
@@ -76,13 +77,13 @@ const AboutUs = () => {
                         </div>
                         <div className="flex gap-3 md:gap-5 flex-col font-raleway text-justify">
                             <p>
-                                Titagarh is a leading comprehensive mobility solution provider with a
+                                XYZ is a leading comprehensive mobility solution provider with a
                                 strong presence in India and Italy. With state-of-the-art factories in
                                 both countries, we are committed to meeting the diverse requirements of
                                 passenger and freight rail systems.
                             </p>
                             <p>
-                                At Titagarh, we specialize in crafting cutting-edge transportation
+                                At XYZ, we specialize in crafting cutting-edge transportation
                                 solutions, including semi high-speed trains, urban metros, passenger
                                 coaches, propulsion equipment, and a wide array of wagons, including
                                 specialized ones.
@@ -91,14 +92,14 @@ const AboutUs = () => {
                                 With a passion for innovation and a dedication to excellence, we strive
                                 to deliver world-class products that redefine the way people and goods
                                 move across the world. Explore our range of products and experience the
-                                future of transportation with Titagarh.
+                                future of transportation with XYZ.
                             </p>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="w-full h-[500px] border border-[#312865] bg-[#312865] mt-[10%] flex  relative ">
+                <div className="w-full h-[500px] border border-[#0A173B] bg-[#0A173B] mt-[10%] flex  relative ">
                     <div className=" border-white w-[40%] text-white font-railway absolute top-[15%] left-[10%] flex gap-5 flex-col" data-aos="fade-right">
                         <div className=" text-[25px] font-[500]">
                             MESSAGE FROM OUR LEADER
@@ -114,7 +115,7 @@ const AboutUs = () => {
                         </div>
 
                         <div className="flex flex-col ">
-                            <p className="text-[25px] font-[500]">MR. RISHABH PANDEY</p>
+                            <p className="text-[25px] font-[500]">MR. XYZ</p>
                             <p className="text-[18px] font-[400]">Executive Chairman</p>
                         </div>
 
@@ -143,7 +144,7 @@ const AboutUs = () => {
                         </span>
 
                         <p className="font-raleway text-[15px] font-[400] text-justify">
-                            At Titagarh, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
+                            At XYZ, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
                         </p>
                     </div>
                 </div>
@@ -158,11 +159,11 @@ const AboutUs = () => {
 
                     <div className="flex flex-col gap-5 w-fit pr-[5%]" data-aos="fade-right">
                         <span className=" text-[30px] font-[600] text-[#312865]">
-                            Our Mission
+                            Our Vision
                         </span>
 
                         <p className="font-raleway text-[15px] font-[400] text-justify">
-                            At Titagarh, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
+                            At XYZ, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
                         </p>
                     </div>
                 </div>

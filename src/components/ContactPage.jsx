@@ -3,8 +3,12 @@ import CorporateOffice from "./CorporateOffice"
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import heroImg from "../assets/trainImg2.jpg"
+import { useEffect } from "react";
 
 const ContactPage = ()=>{
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    },[])
     return(
         <div className="flex flex-col gap-5">
             <NavBar></NavBar>
