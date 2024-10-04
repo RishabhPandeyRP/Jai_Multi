@@ -4,6 +4,9 @@ import train from "../assets/Train.svg"
 import goto from "../assets/icon.svg"
 import r_track from "../assets/Track2.svg"
 import { useState, useEffect } from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const Journey = () => {
     let data = [
@@ -34,6 +37,8 @@ const Journey = () => {
     const [scrollDirection, setScrollDirection] = useState('down');
 
     useEffect(() => {
+        
+
         let lastScrollY = window.scrollY;
 
         const handleScroll = () => {
@@ -99,9 +104,9 @@ const Journey = () => {
             <div className="w-[98%]  py-4  border-green-500 mx-auto  flex flex-col           h-auto mt-15 gap-16 sm:gap-20 lg:gap-24 ">
                 {
                     data?.map((item, index) => (
-                        <div className={`w-full flex justify-between items-center flex-col sm:flex-col ${index % 2 === 1 ? `lg:flex-row-reverse md:flex-row-reverse ` : `lg:flex-row md:flex-row `} gap-8 sm:gap-12`}>
+                        <div className={`w-full flex justify-between items-center flex-col sm:flex-col ${index % 2 === 1 ? `lg:flex-row-reverse md:flex-row-reverse ` : `lg:flex-row md:flex-row `} gap-8 sm:gap-12`} >
                             {/* for heading and text */}
-                            <div className="w-full lg:w-[40%]  border-green-400 flex flex-col">
+                            <div className="w-full lg:w-[40%]  border-green-400 flex flex-col" >
                                 <span className="font-raleway text-[20px] sm:text-[22px] md:text-[23px] lg:text-[24px] font-[600] w-fit md:mx-0 sm:mx-0 lg:mx-0">
                                     {item.heading}
                                 </span>

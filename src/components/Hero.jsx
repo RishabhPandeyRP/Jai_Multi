@@ -1,8 +1,8 @@
 import heroImg from "../assets/trainImg2.jpg"
 import h1 from "../assets/hero1.svg"
-import h2 from "../assets/hero2.svg"
+import h2 from "../assets/Knuckle-icon-v01.png"
 import h3 from "../assets/hero3.svg"
-import h4 from "../assets/hero4.png"
+import h4 from "../assets/furnace_icon.png"
 import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 import { useState } from "react"
@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="w-full h-[80vh]  border-green-600 mb-[10%]">
             <img src={heroImg} alt="heroImg" className="w-full h-full border brightness-[70%] object-cover -z-10" />
 
-            <div className="absolute top-[25%] md:top-[35%] left-[5%] font-newspaper text-[31px] md:text-[38px] text-white font-bold w-[55%] z-0">
+            <div className="absolute top-[25%] md:top-[35%] left-[5%] font-newspaper text-[31px] md:text-[38px] text-white font-bold w-[54%] z-0">
                 Pioneering Innovation and Precision Engineering for Freight Couplers and Knuckles
             </div>
 

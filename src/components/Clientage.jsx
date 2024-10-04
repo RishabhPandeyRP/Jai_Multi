@@ -17,12 +17,12 @@ function Clientage() {
       <span className="font-[600] text-[40px] text-center w-fit border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px]">
         Our Clientage
       </span>
-      <div className="w-[100%] md:w-[100%] lg:w-[100%] flex flex-wrap justify-center md:justify-between rounded-sm border-red-300 bg-gray-200 mx-auto gap-6 py-5">
-        <div className="w-full overflow-hidden text-center bg-gradient-to-r from-[#0A173B]/85 to-[#0025FF]/80 py-4">
+      <div className="w-[100%] md:w-[100%] lg:w-[100%] flex flex-wrap justify-center md:justify-between rounded-sm  border-red-300  mx-auto gap-6 py-5">
+        <div className="w-full overflow-hidden text-center  py-4">
           {/* Scrolling container */}
           <div className="flex items-center justify-start w-max animate-marquee">
             {/* Logo list - First loop */}
-            <ul className="flex items-center">
+            {/* <ul className="flex items-center">
               <li className="mx-5  border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow shadow-black">
                 <img className="h-16 w-auto drop-shadow-md" src="/png/bescoUpd.jpg" alt="BESCO" />
               </li>
@@ -47,7 +47,34 @@ function Clientage() {
               <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow shadow-black">
                 <img className="h-16 w-auto drop-shadow-md" src="/png/titagarhUpd.svg" alt="Titagarh" />
               </li>
+            </ul> */}
+            <ul className="flex items-center">
+              <li className="mx-5  border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/bescoUpd.jpg" alt="BESCO" />
+              </li>
+              <li className="mx-5  border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/Brathwaite.png" alt="Brathwaite" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/download.png" alt="Download" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/JindalRail.gif" alt="Jindal Rail" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/jupiterUpd.jpg" alt="Jupiter Wagons" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/bemlUpd.jpg" alt="BEML" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/indRailUpd.jpg" alt="Main logo" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1 drop-shadow-lg px-2 rounded-[3px] shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/titagarhUpd.svg" alt="Titagarh" />
+              </li>
             </ul>
+
             {/* Client logos */}
             {/* {data?.map((item, index) => (
               <div key={index} className="border-green-500 w-full sm:w-[180px] md:w-[200px] lg:w-[240px] px-3 py-2 rounded-sm shadow-lg bg-white">
@@ -56,7 +83,7 @@ function Clientage() {
             ))} */}
 
             {/* Logo list - Duplicate for seamless looping */}
-            <ul className="flex items-center">
+            {/* <ul className="flex items-center">
               <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow shadow-black">
                 <img className="h-16 w-auto drop-shadow-md" src="/png/bescoUpd.jpg" alt="BESCO" />
               </li>
@@ -81,7 +108,34 @@ function Clientage() {
               <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1 drop-shadow-md px-2 rounded-[3px]">
                 <img className="h-16 w-auto drop-shadow-md" src="/png/titagarhUpd.svg" alt="Titagarh" />
               </li>
+            </ul> */}
+            <ul className="flex items-center">
+              <li className="mx-5  border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/bescoUpd.jpg" alt="BESCO" />
+              </li>
+              <li className="mx-5  border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/Brathwaite.png" alt="Brathwaite" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/download.png" alt="Download" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/JindalRail.gif" alt="Jindal Rail" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/jupiterUpd.jpg" alt="Jupiter Wagons" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/bemlUpd.jpg" alt="BEML" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1  px-2 rounded-[3px] drop-shadow-lg shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/indRailUpd.jpg" alt="Main logo" />
+              </li>
+              <li className="mx-5 border-green-500 w-[200px] bg-white flex justify-center py-1 drop-shadow-lg px-2 rounded-[3px] shadow-lg shadow-black/40">
+                <img className="h-16 w-auto drop-shadow-lg" src="/png/titagarhUpd.svg" alt="Titagarh" />
+              </li>
             </ul>
+
           </div>
         </div>
       </div>
@@ -93,7 +147,7 @@ export default Clientage;
 
 
 
-          {/* import React from 'react';
+{/* import React from 'react';
 
 function Clientage() {
   let data = [
