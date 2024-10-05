@@ -8,20 +8,20 @@ const CorporateOffice = () => {
       {/* Left Section with Company Details */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
         <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA - Corporate Office</h2>
-        <h1 className="text-left text-3xl font-bold mb-4 text-indigo-800">TITAGARH RAIL SYSTEMS LIMITED</h1>
+        <h1 className="text-left text-3xl font-bold mb-4 text-indigo-800">XYZ SYSTEMS LIMITED</h1>
 
         <div className="text-left mb-4">
           <p>
             <strong>Location:</strong><br />
-            Titagarh Towers 756, Anandapur, E.M. Bypass Kolkata - 700107, West Bengal, India
+            xyz Towers 756, Anandapur, India
           </p>
         </div>
 
         <div className="text-left mb-4">
           <p>
             <strong>Email Address:</strong><br />
-            <a href="mailto:corp@titagarh.in" className="text-blue-600 underline">
-              corp@titagarh.in
+            <a href="mailto:hsdfhshfs" className="text-blue-600 underline">
+              xyz@abc.in
             </a>
           </p>
         </div>
@@ -30,7 +30,7 @@ const CorporateOffice = () => {
           <p>
             <strong>Phone Number:</strong><br />
             <a href="tel:+913340190800" className="text-blue-600 underline">
-              +91-33-4019 0800
+              +91-333333333
             </a>
           </p>
         </div>

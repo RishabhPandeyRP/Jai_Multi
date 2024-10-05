@@ -51,9 +51,13 @@ const Infrastructure = () => {
             <NavBar></NavBar>
             <div className=" border-red-500 w-[100%] h-auto  flex flex-col items-center justify-center pt-[5%] mb-[5%]">
 
-                <span className="font-[600] text-[40px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF]            sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%] ">
-                    Our Infrastructure
-                </span>
+                <div className="w-full sticky top-[8%] z-10 bg-white  border-green-500 flex justify-center">
+                    <span className="font-[600] text-[40px] text-center w-fit border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%]">
+                        Our Infrastructure
+                    </span>
+                </div>
+
+
 
 
                 <div className="w-[80%] h-auto  no-scrollbar flex flex-col gap-[200px]  border-green-500 mt-[5%]" id="scrollable-container" >
@@ -62,8 +66,8 @@ const Infrastructure = () => {
 
                     {
                         data?.map((item, index) => (
-                            <div className={`flex  ${index%2 == 0 ? "flex-row-reverse gap-28":"gap-5"}`}  key={index}>
-                                <div className={`flex flex-col gap-5 ${index%2 == 0 ? "pr-[0%]":"pr-[10%]"}`} data-aos="fade-right">
+                            <div className={`flex  ${index % 2 == 0 ? "flex-row-reverse gap-28" : "gap-5"}`} key={index}>
+                                <div className={`flex flex-col gap-5 ${index % 2 == 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
                                     <span className="text-[32px] font-[600] text-[#312865]" >
                                         {item.heading}
                                     </span>
