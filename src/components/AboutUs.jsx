@@ -14,7 +14,7 @@ const AboutUs = () => {
         window.scrollTo(0, 0);
         AOS.init({
             duration: 1000,
-            offset: 150
+            offset: 300
         });
     }, [])
 
