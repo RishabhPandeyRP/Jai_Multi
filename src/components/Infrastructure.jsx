@@ -47,12 +47,12 @@ const Infrastructure = () => {
     }, []);
 
     return (
-        <div>
+        <div className="w-full border border-black">
             <NavBar></NavBar>
-            <div className="border border-red-500 w-[100%] h-auto  flex flex-col items-center justify-center pt-[5%] mb-[5%]">
+            <div className=" border-red-500 w-[100%] h-auto  flex flex-col items-center justify-center pt-[5%] mb-[5%]">
 
-                <div className="w-[100%] sticky top-[5.5%] md:top-[4.9%] lg:top-[4.9%] z-10 bg-white border border-green-500 flex justify-center mx-auto">
-                    <span className="font-[600] text-[40px] text-center w-fit border border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%]">
+                <div className="w-[100%] sticky top-[7%] md:top-[5%] lg:top-[5%] xl:top-[8.4%] z-10 bg-white  border-green-500 flex justify-center md:mx-auto pt-[5%] md:pt-[0%]">
+                    <span className="font-[600] text-[35px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%]">
                         Our Infrastructure
                     </span>
                 </div>
@@ -60,7 +60,7 @@ const Infrastructure = () => {
 
 
 
-                <div className="w-[90%] md:w-[80%] h-auto  no-scrollbar flex flex-col gap-[100px] md:gap-[200px] border border-green-500 mt-[15%] md:mt-[5%] ml-[10%] md:ml-[0%]" id="scrollable-container" >
+                <div className="w-[90%] md:w-[80%] h-auto  no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[5%] mx-auto  overflow-x-hidden md:overflow-x-visible" id="scrollable-container" >
 
 
 
@@ -71,7 +71,7 @@ const Infrastructure = () => {
                                     <span className="text-[32px] font-[600] text-[#312865]" >
                                         {item.heading}
                                     </span>
-                                    <p className="font-raleway text-[15px] font-[400] text-justify">
+                                    <p className="font-raleway text-[14px] md:text-[15px] font-[400] text-justify">
                                         {item.text}
                                     </p>
                                 </div>
