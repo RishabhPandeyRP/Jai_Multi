@@ -168,7 +168,7 @@ const NavBar = () => {
                     <img src={logo} alt="logo" className="w-[120px] border-red-500" />
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex border-red-500 text-[16px] font-medium font-inter sm:space-x-4 md:space-x-6 lg:space-x-8 -ml-[10%]">
+                    <div className="hidden md:flex border-red-500 text-[13px] lg:text-[15px] font-medium font-inter sm:space-x-4 md:space-x-6 lg:space-x-8  -ml-[10%]">
                         <span className="cursor-pointer group">
                             <Link to="/"><span>Home</span></Link>
                             <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
@@ -246,27 +246,44 @@ const NavBar = () => {
             {isOpen && (
                 <div className="md:hidden mt-2 space-y-4 px-4">
                     <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
-                        <span>Home</span>
+                    <Link to="/"><span>Home</span></Link>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
                     <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
-                        <span>About Us</span>
+                    <Link to="/aboutus"><span>About Us</span></Link>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
-                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
+                    <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group" onClick={() => setDropdownOpen(!dropdownOpen)}>
                         <span>Product Line</span>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
+                        {/* Dropdown Menu */}
+                        {dropdownOpen && (
+                                <div className="absolute left-5 mt-2 w-[220px] bg-[#0A173B] text-white rounded-md shadow-lg font-raleway text-[14px]">
+                                    <Link
+                                        to="/casting"
+                                        className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
+                                    >
+                                        Castings
+                                    </Link>
+                                    <Link
+                                        to="/elctroMechDiv"
+                                        className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
+                                    >
+                                        Electro - Mechanical division 
+                                    </Link>
+                                </div>
+                            )}
                     </span>
                     <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
-                        <span>Certifications</span>
+                    <Link to="/certification"><span>Certifications</span></Link>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
                     <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
-                        <span>Quality</span>
+                    <Link to="/infra"><span>Infrastructure</span></Link>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
                     <span className="block text-[16px] font-medium font-inter cursor-pointer hover:text-blue-500 group">
-                        <span>Contact Us</span>
+                        <Link to="/contactpage"><span>Contact Us</span></Link>
                         <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                     </span>
                 </div>

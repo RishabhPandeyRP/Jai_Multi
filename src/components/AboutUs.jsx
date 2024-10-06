@@ -16,7 +16,7 @@ const AboutUs = () => {
             duration: 1000,
             offset: 150
         });
-    },[])
+    }, [])
 
     return (
         <div className=" border-red-500">
@@ -54,8 +54,8 @@ const AboutUs = () => {
                     </div>
                 </div> */}
 
-                <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] mx-auto justify-between items-center gap-8">
-                    <div className="relative">
+                <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] mx-auto justify-around items-center gap-8   border-red-900">
+                    <div className="relative  border-red-900">
                         <div>
                             <img
                                 src={titGarh}
@@ -63,76 +63,80 @@ const AboutUs = () => {
                                 className="h-[300px] w-[250px] md:h-[450px] md:w-[350px] object-contain lg:h-[500px] lg:w-[400px]"
                             />
                         </div>
-                        <div className="absolute border-4 border-[#312865] w-[280px] h-[230px] md:w-[350px] md:h-[350px] top-[13%] -left-[6%] md:-left-[9%] md:top-[11%] lg:top-[13%] lg:-left-[6%] lg:w-[450px] lg:h-[400px] -z-10"></div>
+                        <div className="absolute border-4 border-[#312865] w-[280px] h-[230px] md:w-[350px] md:h-[350px] top-[13%] -left-[6%] md:-left-[50%] md:top-[11%] lg:top-[13%] lg:-left-[6%] lg:w-[450px] lg:h-[400px] -z-10 md:hidden lg:block xl:block"></div>
                     </div>
 
-                    <div
-                        className="text-[14px] md:text-[15px] font-[300] w-full md:w-[55%] flex flex-col gap-6 md:gap-9"
-                        data-aos="fade-left"
-                    >
+                    <div className="overflow-x-hidden  border-green-500 w-[95%] lg:w-[40%]">
+                        <div
+                            className=" border-red-500 text-[14px] md:text-[15px] font-[300] w-[100%] md:w-[100%] flex flex-col gap-6 md:gap-9 "
+                            data-aos="fade-left"
+                        >
+                            <div>
+                                <span className="w-fit text-[20px] md:text-[30px] font-[600] text-[#312865]">
+                                    About the Group
+                                </span>
+                            </div>
+                            <div className="w-fit flex gap-3 md:gap-5 flex-col font-raleway text-justify">
+                                <p>
+                                    XYZ is a leading comprehensive mobility solution provider with a
+                                    strong presence in India and Italy. With state-of-the-art factories in
+                                    both countries, we are committed to meeting the diverse requirements of
+                                    passenger and freight rail systems.
+                                </p>
+                                <p>
+                                    At XYZ, we specialize in crafting cutting-edge transportation
+                                    solutions, including semi high-speed trains, urban metros, passenger
+                                    coaches, propulsion equipment, and a wide array of wagons, including
+                                    specialized ones.
+                                </p>
+                                <p>
+                                    With a passion for innovation and a dedication to excellence, we strive
+                                    to deliver world-class products that redefine the way people and goods
+                                    move across the world. Explore our range of products and experience the
+                                    future of transportation with XYZ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="w-full h-fit lg:h-fit lg:py-10 border border-[#0A173B] bg-[#0A173B] mt-[10%] flex  relative ">
+                    <div className=" border-white flex flex-col lg:flex-row w-[80%] mx-auto justify-between items-center gap-10 my-[5%] lg:my-[0%] lg:gap-10">
+                        <div className=" border-white w-[90%] lg:w-[40%] text-white font-railway flex gap-5 flex-col h-fit text-justify" data-aos="fade-right">
+                            <div className=" text-[25px] font-[500]">
+                                MESSAGE FROM OUR LEADER
+                            </div>
+
+                            <div className="flex flex-col gap-5 text-[14px]">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col ">
+                                <p className="text-[25px] font-[500]">MR. XYZ</p>
+                                <p className="text-[18px] font-[400]">Executive Chairman</p>
+                            </div>
+
+                        </div>
+
                         <div>
-                            <span className="text-[20px] md:text-[30px] font-[600] text-[#312865]">
-                                About the Group
-                            </span>
+                            <img src={chairImage} alt="" className="w-[500px]  " data-aos="flip-left" />
                         </div>
-                        <div className="flex gap-3 md:gap-5 flex-col font-raleway text-justify">
-                            <p>
-                                XYZ is a leading comprehensive mobility solution provider with a
-                                strong presence in India and Italy. With state-of-the-art factories in
-                                both countries, we are committed to meeting the diverse requirements of
-                                passenger and freight rail systems.
-                            </p>
-                            <p>
-                                At XYZ, we specialize in crafting cutting-edge transportation
-                                solutions, including semi high-speed trains, urban metros, passenger
-                                coaches, propulsion equipment, and a wide array of wagons, including
-                                specialized ones.
-                            </p>
-                            <p>
-                                With a passion for innovation and a dedication to excellence, we strive
-                                to deliver world-class products that redefine the way people and goods
-                                move across the world. Explore our range of products and experience the
-                                future of transportation with XYZ.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="w-full h-[500px] border border-[#0A173B] bg-[#0A173B] mt-[10%] flex  relative ">
-                    <div className=" border-white w-[40%] text-white font-railway absolute top-[15%] left-[10%] flex gap-5 flex-col" data-aos="fade-right">
-                        <div className=" text-[25px] font-[500]">
-                            MESSAGE FROM OUR LEADER
-                        </div>
-
-                        <div className="flex flex-col gap-5 text-[14px]">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
-                            </p>
-                        </div>
-
-                        <div className="flex flex-col ">
-                            <p className="text-[25px] font-[500]">MR. XYZ</p>
-                            <p className="text-[18px] font-[400]">Executive Chairman</p>
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <img src={chairImage} alt="" className="w-[500px] absolute lg:-top-[10%] lg:right-[7%] md:-top-[10%] md:right-[7%] " data-aos="flip-left" />
                     </div>
 
                 </div>
 
-                
 
 
-                <div className="flex  border-green-500 w-[85%] mx-auto justify-around mt-[10%]">
-                    <div className="relative w-fit" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[550px] w-[2600px]" />
+
+                <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[85%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
+                    <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
+                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[550px] lg:w-[2600px]" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] left-[75%] border-[10px] border-white"/> */}
 
@@ -149,9 +153,9 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row-reverse  border-green-500 w-[85%] mx-auto justify-around mt-[20%]">
-                    <div className="relative w-fit" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[550px] w-[2600px]" />
+                <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[85%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
+                    <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
+                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[550px] lg:w-[2600px]" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] right-[75%] border-[10px] border-white"/> */}
 

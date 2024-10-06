@@ -20,7 +20,7 @@ function App() {
   
 
   return (
-    <div className="">
+    <div className="w-[100%]">
       {/* <Test></Test> */}
       {/* <NavBar></NavBar>
       <Hero></Hero>
