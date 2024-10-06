@@ -86,9 +86,11 @@ const CertificationsList = () => {
     <div>
       <NavBar></NavBar>
       <div className="certifications-list max-w-6xl mx-auto p-8 pt-[8%]  border-green-500 flex flex-col justify-center gap-5">
-        <span className="font-[600] text-[40px] text-center w-fit   border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF]            sm:text-[40px] lg:text-[52px] xl:text-[62px]  ">
-          Recognition
-        </span>
+        <div className="w-full sticky top-[8%] z-10 bg-white  border-green-500 flex justify-center">
+          <span className="font-[600] text-[40px] text-center w-fit border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%]">
+            Recognitions
+          </span>
+        </div>
         {certificates.map((cert, index) => (
           <Certificate
             key={index}
