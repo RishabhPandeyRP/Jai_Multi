@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+import scrollbarHide from 'tailwind-scrollbar-hide';
 export default {
   content: [
     "./index.html",
@@ -22,5 +24,5 @@ export default {
       newspaper:["Noticia Text","serif"]
     }
   },
-  plugins: [],
+  plugins: [scrollbarHide,],
 }
