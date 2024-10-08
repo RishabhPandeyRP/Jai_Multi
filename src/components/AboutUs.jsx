@@ -78,30 +78,27 @@ const AboutUs = () => {
                             </div>
                             <div className="w-fit flex gap-3 md:gap-5 flex-col font-raleway text-justify">
                                 <p>
-                                    XYZ is a leading comprehensive mobility solution provider with a
-                                    strong presence in India and Italy. With state-of-the-art factories in
-                                    both countries, we are committed to meeting the diverse requirements of
-                                    passenger and freight rail systems.
+                                Rine Group of Industries is a premier manufacturing company specializing in the production of highly critical casting and electromechanical products for the Indian Railways. With an unwavering commitment to precision and quality, we deliver a range of essential components, including couplers, knuckles, axle boxes, alternators, oil cooling units, and control panels. Our advanced engineering and stringent quality standards ensure that every product meets the rigorous demands of the railway sector.
                                 </p>
                                 <p>
-                                    At XYZ, we specialize in crafting cutting-edge transportation
-                                    solutions, including semi high-speed trains, urban metros, passenger
-                                    coaches, propulsion equipment, and a wide array of wagons, including
-                                    specialized ones.
+                                With over 250 skilled professionals driving innovation and excellence, Rine Group continues to be a trusted partner to the Indian Railways, contributing to the nation’s transportation infrastructure with reliable, high-performance solutions.
                                 </p>
-                                <p>
+                                {/* <p>
                                     With a passion for innovation and a dedication to excellence, we strive
                                     to deliver world-class products that redefine the way people and goods
                                     move across the world. Explore our range of products and experience the
                                     future of transportation with XYZ.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="w-full h-fit lg:h-fit lg:py-10 border border-[#0A173B] bg-[#0A173B] mt-[10%] flex  relative ">
+                <div className="w-full h-fit lg:h-fit lg:py-10 border border-[#0A173B] bg-black bg-cover bg-fixed mt-[10%] flex  relative " 
+                style={{
+                    backgroundImage: "url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1600 800%27%3E%3Cg %3E%3Cpolygon fill=%27%2302050c%27 points=%271600 160 0 460 0 350 1600 50%27/%3E%3Cpolygon fill=%27%23040918%27 points=%271600 260 0 560 0 450 1600 150%27/%3E%3Cpolygon fill=%27%23060e23%27 points=%271600 360 0 660 0 550 1600 250%27/%3E%3Cpolygon fill=%27%2308122f%27 points=%271600 460 0 760 0 650 1600 350%27/%3E%3Cpolygon fill=%27%230A173B%27 points=%271600 800 0 800 0 750 1600 450%27/%3E%3C/g%3E%3C/svg%3E')"
+                }}>
                     <div className=" border-white flex flex-col lg:flex-row w-[80%] mx-auto justify-between items-center gap-10 my-[5%] lg:my-[0%] lg:gap-10">
                         <div className=" border-white w-[90%] lg:w-[40%] text-white font-railway flex gap-5 flex-col h-fit text-justify" data-aos="fade-right">
                             <div className=" text-[25px] font-[500]">
@@ -110,16 +107,21 @@ const AboutUs = () => {
 
                             <div className="flex flex-col gap-5 text-[14px]">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
+                                At Rine Group of Industries, we take immense pride in our role as a trusted supplier to the Indian Railways. Over the past 30 years, our journey has been defined by a commitment to excellence, innovation, and the relentless pursuit of quality in everything we do. We have built a strong foundation rooted in delivering critical casting and electromechanical products that uphold the highest industry standards, ensuring safety and performance.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti alias accusantium ipsam nihil nemo quasi in beatae eos minima, quae sequi, eum dolore ad consequatur fugit nostrum aut ratione sed ducimus a. Explicabo esse ea beatae, qui et magnam eum nostrum quidem veritatis. Blanditiis impedit itaque fuga. Iste, earum.
+                                Our success is driven by the dedication of our talented workforce, whose expertise and passion are the backbone of our operations. Together, we have created a culture of continuous improvement, where each challenge is met with a solution-focused approach.
+
+                                </p>
+                                <p>
+                                As we move forward, we strive to become global leaders in the development and supply of highly critical casting products.
                                 </p>
                             </div>
 
                             <div className="flex flex-col ">
-                                <p className="text-[25px] font-[500]">MR. XYZ</p>
-                                <p className="text-[18px] font-[400]">Executive Chairman</p>
+                                <p className="text-[20px] font-[500]">Sincerely,</p>
+                                <p className="text-[25px] font-[500]">Jai Gopal Goyal</p>
+                                <p className="text-[18px] font-[400]">Owner, Rine Group of Industries</p>
                             </div>
 
                         </div>
@@ -148,7 +150,7 @@ const AboutUs = () => {
                         </span>
 
                         <p className="font-raleway text-[15px] font-[400] text-justify">
-                            At XYZ, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
+                        At Rine Group of Industries, our mission is to deliver excellence in supplying high-quality casting and electromechanical products, ensuring safety and reliability for the Indian Railways and other sectors we serve. We are dedicated to fostering a culture of innovation, continuous improvement, and quality, driven by the expertise and passion of our talented workforce. Our commitment lies in maintaining the highest industry standards while providing solutions that meet critical operational needs.
                         </p>
                     </div>
                 </div>
@@ -167,7 +169,7 @@ const AboutUs = () => {
                         </span>
 
                         <p className="font-raleway text-[15px] font-[400] text-justify">
-                            At XYZ, we are dedicated to ensuring utmost customer satisfaction through the delivery of high-quality products and services. Our goal is to establish ourselves as a world-class mobility solutions provider in the infrastructure sector, catering to the unique needs of our customers and facilitating their long-term business success. Our values manifest in the holistic satisfaction of all stakeholders, with due focus on benefiting society at large.
+                        Our vision is to become a global leader in the development and supply of highly critical casting products, known for our unwavering focus on quality, innovation, and customer satisfaction. We aim to expand our reach, building on our 30 years of experience, to set new benchmarks in the industry and contribute to the progress of sectors that rely on our products for safety and performance.
                         </p>
                     </div>
                 </div>

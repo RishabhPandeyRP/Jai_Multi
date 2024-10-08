@@ -222,32 +222,140 @@ const Infrastructure = () => {
     const data = [
         {
             heading: "Core Shop",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            text:( 
+            <div className="flex flex-col font-raleway  border-red-800">
+                <p className="text-[25px] font-[500]">Intensive sand mixer with batch capacity:</p>
+                <div className="flex flex-col gap-2 ml-[2%]">
+                    <p>1. 200kg</p>
+                    <p>2. 100kg</p>
+                </div>
+
+                <p className="text-[25px] font-[500]">Processes used to make cores:</p>
+                <div className="flex flex-col gap-2 ml-[2%]">
+                    <p>1.	CO₂ Silicate</p>
+                    <p>2.	No-bake process</p>
+                    <div>
+                        <p>3.	Shell core shooter:</p>
+                        <div className="ml-[4%]">
+                            <p>MAKE - vee.pee</p>
+                            <p>Capacity - 10 to 15 sets of core/hr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>)
+            ,
             imgUrl: mission1
         },
         {
             heading: "Moulding ",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            text: 
+            (<div className="flex flex-col font-raleway  border-red-800">
+                {/* <p className="text-[45px] font-[500]">Moulding Infrastructure:</p> */}
+                <div className="flex flex-col gap-2">
+                    <div>
+                        <p className="text-[25px] font-[500]">1.	Arpa-1300</p>
+                        <div className="flex flex-col gap-2 ml-[2%]">
+                            <p>MAKE - BMD George Fisher</p>
+                            <p>Capacity - 20 moulds/hr</p>
+                        </div>
+                    </div>
+                    <div >
+                        <p className="text-[25px] font-[500]">2.	FM-3.0 (High Pressure)</p>
+                        <div className="flex flex-col gap-2 ml-[2%]">
+                            <p>MAKE - RHINO</p>
+                            <p>Capacity - 20 moulds/hr</p>
+                        </div>
+                    </div>
+                    <div >
+                        <p className="text-[25px] font-[500]">3.	No-bake System</p>
+                        <div className="flex flex-col gap-2 ml-[2%]">
+                            <p>MAKE - Omega</p>
+                            <p>Capacity - 10 moulds/hr</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p className=" text-[25px] mt-[2%]">A fully automated sand reclamation system minimizes wastage of sand and reduces environmental degradation.</p>
+                
+            </div>)
+            ,
             imgUrl: mission1
         },
         {
-            heading: "Furnace ",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            heading: "Melting Area ",
+            text: 
+            (<div className="flex flex-col font-raleway  border-red-800">
+                
+                <div className="flex flex-col gap-2">
+                    <div>
+                        <p className="text-[25px] font-[500]">1.	Arc Furnace</p>
+                        <div className="flex flex-col gap-2 ml-[2%]">
+                            <p>MAKE - Megatherm</p>
+                            <p>Capacity - 5 Ton</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p className="text-[25px] font-[500]">2.	Induction Furnace</p>
+                        <div className="flex flex-col gap-2 ml-[2%]">
+                            <p>MAKE - Inductotherm</p>
+                            <p>Capacity - Four crucibles with 2.5-ton capacity each</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <p className="text-[25px] font-[500]">We use bottom-pouring ladles for pouring liquid metal.</p>
+                
+            </div>)
+            ,
             imgUrl: mission1
         },
         {
             heading: "Heat Treatment ",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            text: 
+                (<div className="flex flex-col gap-5">
+                    <p className="text-[25px] font-[500]">A fully equipped heat treatment area with:</p>
+                    <div className="flex flex-col gap-2 ml-[2%]">
+                        <p>1.	Bell Furnaces, each with a capacity of 8 tons</p>
+                        <p>2.	Pit Furnaces, each with a capacity of 2 tons</p>
+                        <p>3.	A Quenching Tank with a capacity of 40,000 liters</p>
+                    </div>
+                </div>)
+            ,
             imgUrl: mission1
         },
         {
             heading: "Machine Shop",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            text: "The Machine Shop at Pd Steels includes state-of-the-art machinery such as Horizontal Machining Centres (HMC), CNC Vertical Lathe Machines, CNC Boring Machines, Vertical Turning Lathes (VTL), Laser Cutting Machines, and Coordinate Measuring Machines (CMM).",
             imgUrl: mission1
         },
         {
-            heading: "Quality Assurance ",
-            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere exercitationem nobis mollitia recusandae vitae sunt praesentium! Saepe, perferendis aliquid.",
+            heading: "Quality Assurance - Chemical Lab",
+            text: "Our quality control process is meticulously designed to ensure that every aspect of production adheres to the highest industry standards. Our chemical laboratory is equipped with state-of-the-art tools for precise and comprehensive analysis. This includes Spectrometers, Sand Testing Machines, Rapid Moisture Tellers, Sand Permeability Testers, Shatter Index Testers, Green Strength Machines, Core Hardness Testers, and Mould Hardness Testers.",
+            imgUrl: mission1
+        },
+        {
+            heading: "Quality Assurance - Physical Lab",
+            text: 
+                (<div>
+                    <p>Our physical testing lab operates under a rigorous quality control framework, ensuring that all materials and products meet the highest industry benchmarks. Equipment includes:</p>
+
+                    <div className="flex flex-col gap-2">
+                        <span>Hardness Tester BHN</span>
+                        <span>Universal Testing Machine</span>
+                        <span>Impact Testing</span>
+                        <span>D-Meter</span>
+                        <span>Vickers Hardness Tester</span>
+                        <span>Rockwell Hardness Tester</span>
+                        <span>Immersion Pyrometer</span>
+                        <span>Microscope</span>
+                        <span>Surface Table 3ft x 3ft</span>
+                        <span>Height Gauge</span>
+                        <span>Vernier and Profile Projector</span>
+
+                    </div>
+                </div>)
+            ,
             imgUrl: mission1
         }
     ];
@@ -319,7 +427,7 @@ const Infrastructure = () => {
                                     <span className="text-[32px] font-[600] text-white">
                                         {item.heading}
                                     </span>
-                                    <p className="font-raleway text-[14px] md:text-[15px] font-[400] text-justify">
+                                    <p className="font-raleway text-justify">
                                         {item.text}
                                     </p>
                                 </div>

@@ -14,15 +14,15 @@ const Hero = () => {
     let data = [
         {
             logo: h1,
-            heading: "Number of couplers supplied",
-            number: 30000,
+            heading: "Couplers supplied till date",
+            number: 100000,
             color: "0A173B",
             after:""
         },
         {
             logo: h2,
-            heading: "Number of Knuckles Supplied",
-            number: 50000,
+            heading: "Knuckles supplied last year",
+            number: 45000,
             color: "17236A",
             after:""
         },
