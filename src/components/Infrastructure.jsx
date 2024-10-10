@@ -223,7 +223,7 @@ const Infrastructure = () => {
         {
             heading: "Core Shop",
             text:( 
-            <div className="flex flex-col font-raleway  border-red-800">
+            <div className="flex flex-col font-raleway   border-red-800">
                 <p className="text-[25px] font-[500]">Intensive sand mixer with batch capacity:</p>
                 <div className="flex flex-col gap-2 ml-[2%]">
                     <p>1. 200kg</p>
@@ -236,7 +236,7 @@ const Infrastructure = () => {
                     <p>2.	No-bake process</p>
                     <div>
                         <p>3.	Shell core shooter:</p>
-                        <div className="ml-[4%]">
+                        <div className="ml-[5%]">
                             <p>MAKE - vee.pee</p>
                             <p>Capacity - 10 to 15 sets of core/hr</p>
                         </div>
@@ -275,7 +275,7 @@ const Infrastructure = () => {
                     </div>
                 </div>
 
-                <p className=" text-[25px] mt-[2%]">A fully automated sand reclamation system minimizes wastage of sand and reduces environmental degradation.</p>
+                <p className=" text-[23px] mt-[3%]">A fully automated sand reclamation system minimizes wastage of sand and reduces environmental degradation.</p>
                 
             </div>)
             ,
@@ -304,7 +304,7 @@ const Infrastructure = () => {
                     
                 </div>
 
-                <p className="text-[25px] font-[500]">We use bottom-pouring ladles for pouring liquid metal.</p>
+                <p className="text-[23px] font-[500] mt-[2%]">We use bottom-pouring ladles for pouring liquid metal.</p>
                 
             </div>)
             ,
@@ -340,19 +340,20 @@ const Infrastructure = () => {
                 (<div>
                     <p>Our physical testing lab operates under a rigorous quality control framework, ensuring that all materials and products meet the highest industry benchmarks. Equipment includes:</p>
 
-                    <div className="flex flex-col gap-2">
-                        <span>Hardness Tester BHN</span>
-                        <span>Universal Testing Machine</span>
-                        <span>Impact Testing</span>
-                        <span>D-Meter</span>
-                        <span>Vickers Hardness Tester</span>
-                        <span>Rockwell Hardness Tester</span>
-                        <span>Immersion Pyrometer</span>
-                        <span>Microscope</span>
-                        <span>Surface Table 3ft x 3ft</span>
-                        <span>Height Gauge</span>
-                        <span>Vernier and Profile Projector</span>
-
+                    <div className="flex flex-col gap-2 ml-[5%] mt-[2%]">
+                        <ul style={{listStyleType:"disc"}}>
+                        <li>Hardness Tester BHN</li>
+                        <li>Universal Testing Machine</li>
+                        <li>Impact Testing</li>
+                        <li>D-Meter</li>
+                        <li>Vickers Hardness Tester</li>
+                        <li>Rockwell Hardness Tester</li>
+                        <li>Immersion Pyrometer</li>
+                        <li>Microscope</li>
+                        <li>Surface Table 3ft x 3ft</li>
+                        <li>Height Gauge</li>
+                        <li>Vernier and Profile Projector</li>
+                        </ul>
                     </div>
                 </div>)
             ,
@@ -401,7 +402,7 @@ const Infrastructure = () => {
 
                 {/* Scrollable Section */}
                 <div
-                    className="border-red-600 bg-black bg-cover bg-fixed text-white w-[100%] h-[620px] py-[1.5%] mt-[9%]  lg:mt-[2%]"
+                    className="border-red-600 bg-black bg-cover bg-fixed text-white w-[100%] h-[620px] py-[1.5%] mt-[9%] md:mt-[9%] lg:mt-[7%] xl:mt-[2%]"
                     style={{
                         backgroundImage: "url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1600 800%27%3E%3Cg %3E%3Cpolygon fill=%27%2302050c%27 points=%271600 160 0 460 0 350 1600 50%27/%3E%3Cpolygon fill=%27%23040918%27 points=%271600 260 0 560 0 450 1600 150%27/%3E%3Cpolygon fill=%27%23060e23%27 points=%271600 360 0 660 0 550 1600 250%27/%3E%3Cpolygon fill=%27%2308122f%27 points=%271600 460 0 760 0 650 1600 350%27/%3E%3Cpolygon fill=%27%230A173B%27 points=%271600 800 0 800 0 750 1600 450%27/%3E%3C/g%3E%3C/svg%3E')"
                     }}>
@@ -427,7 +428,7 @@ const Infrastructure = () => {
                                     <span className="text-[32px] font-[600] text-white">
                                         {item.heading}
                                     </span>
-                                    <p className="font-raleway text-justify">
+                                    <p className="font-raleway text-justify  border-red-500 w-[550px]">
                                         {item.text}
                                     </p>
                                 </div>
