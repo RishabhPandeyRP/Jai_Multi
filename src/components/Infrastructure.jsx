@@ -397,7 +397,7 @@ const Infrastructure = () => {
     return (
         <div className="w-full  border-black scrollbar-hide">
             <NavBar />
-            <div className="border-red-500 w-[100%] h-auto flex flex-col items-center justify-center pt-[5%] mb-[5%]">
+            <div className="border-red-500 w-[100%] h-auto flex flex-col items-center justify-center pt-[5%] mb-[5%] ">
 
                 {/* Scrollable Section */}
                 <div
@@ -407,7 +407,7 @@ const Infrastructure = () => {
                     }}>
 
                     {/* Scrollable container */}
-                    <div className="scroll-container w-[90%] md:w-[85%] h-[95%] lg:h-[100%] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[100px]   border-green-500 mt-[4%] md:mt-[0%] mx-auto" id="scrollable-container">
+                    <div className="scroll-container w-[90%] md:w-[85%] h-[95%] lg:h-[100%] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[100px]   border-green-500 mt-[4%] md:mt-[0%] mx-auto overflow-x-hidden" id="scrollable-container">
 
                         {/* Sticky heading within the scrollable section */}
                         <div className="sticky top-0 bg-slate-500/50 backdrop-blur-md rounded-lg z-10 py-1   border-green-500 flex justify-center">

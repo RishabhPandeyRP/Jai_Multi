@@ -1,5 +1,9 @@
 import NavBar from "./NavBar";
 import mission1 from "../assets/Vector 4.png";
+import knuckle from '../assets/KnuckleNew.png'
+import yoke from '../assets/yokeNew.png'
+import strikerCasting from '../assets/strikerCastingNew.png'
+import coupler from '../assets/CouplerNew.png'
 import Footer from "./Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,22 +13,22 @@ const Casting = () => {
     const data = [{
         heading: "Coupler Body ",
         text: "The coupler body in freight couplers serves as the main structural component of a railway coupling system, designed to connect and secure freight cars together. Its purpose is critical for the safe and efficient operation of trains, ensuring that the cars remain coupled under various operational conditions, such as heavy loads, impacts, and movements.",
-        imgUrl: mission1
+        imgUrl: coupler
     },
     {
         heading: "Knuckle  ",
         text: "The knuckle in freight couplers is a critical component that plays a key role in connecting and securing two freight cars together. It is a movable part of the coupler assembly that allows for the automatic coupling and uncoupling of rail cars",
-        imgUrl: mission1
+        imgUrl: knuckle
     },
     {
         heading: "Yoke  ",
         text: "The yoke in freight couplers is an essential component that serves as the structural link between the coupler body (which includes the knuckle) and the rest of the train’s under frame. It plays a critical role in absorbing, distributing, and transferring forces during the operation of freight trains.",
-        imgUrl: mission1
+        imgUrl: yoke
     },
     {
-        heading: "Striker Castin ",
+        heading: "Striker Casting ",
         text: "The striker casting acts as a point of connection and interaction between the coupler and the railcar, helping to ensure safe and efficient operation of freight trains. The striker casting contributes to the overall safety, efficiency, and reliability of freight train operations.",
-        imgUrl: mission1
+        imgUrl: strikerCasting
     },
     {
         heading: " Back Stop ",
@@ -111,7 +115,7 @@ const Casting = () => {
                     }}>
 
                     {/* Scrollable container */}
-                    <div className="scroll-container w-[90%] md:w-[85%] h-[95%] lg:h-[100%] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[100px]   border-green-500 mt-[4%] md:mt-[0%] mx-auto" id="scrollable-container">
+                    <div className="scroll-container w-[90%] md:w-[85%] h-[95%] lg:h-[100%] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[100px]   border-green-500 mt-[4%] md:mt-[0%] mx-auto overflow-x-hidden" id="scrollable-container">
 
                         <div className="sticky top-0 bg-slate-500/50 backdrop-blur-md rounded-lg z-10 py-1   border-green-500 flex justify-center">
                             <span className="font-[600] text-[35px] text-center w-[100%]  mx-auto font-raleway text-white sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[0%]  border-red-500">
@@ -199,7 +203,7 @@ const Casting = () => {
                                 </div>
                                 <div className="flex flex-col lg:flex-row gap-5 overflow-x-hidden md:overflow-x-visible px-[7%]" key={index}>
                                     <div className="flex flex-col gap-5 pr-[10%]" data-aos="fade-right">
-                                        <span className="text-[32px] font-[600] text-[#312865]" >
+                                        <span className="text-[32px] font-[600]" >
                                             {item.heading}
                                         </span>
                                         <p className="font-raleway text-[15px] font-[400] text-justify">

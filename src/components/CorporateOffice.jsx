@@ -7,8 +7,8 @@ const CorporateOffice = () => {
     <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg  border-red-500 w-[90%] mx-auto">
       {/* Left Section with Company Details */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
-        <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA - Corporate Office</h2>
-        <h1 className="text-left text-3xl font-bold mb-4 text-indigo-800">XYZ SYSTEMS LIMITED</h1>
+        <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA </h2>
+        <h1 className="text-left text-3xl font-bold mb-4 text-indigo-800">JAI MULTI ENGINEERING CO.</h1>
 
         <div className="text-left mb-4">
           <p>
