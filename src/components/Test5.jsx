@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-const Test2 = () => {
+const Test5 = () => {
         useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -45,10 +45,10 @@ const Test2 = () => {
     }, []);
 
     const data = [{
-        heading: "Centre Pivot   ",
-        text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
+        heading: "25kW & 4.5kW Brushless Alternator for Railways ",
+        text: "The purpose of alternators in trains is to generate electrical power needed to operate various on-board systems and support key functionalities, such as lighting, air conditioning, communication systems, and auxiliary equipment. Alternators are essential for the efficient operation of diesel-electric and electric trains, where they convert mechanical energy from the engine or traction system into electrical energy.",
         imgUrl: mission1
-    },]
+    }]
 
     return (
         <div className="w-full h-[85vh]  border-black scrollbar-hide ">
@@ -89,4 +89,4 @@ const Test2 = () => {
     )
 }
 
-export default Test2;
+export default Test5;

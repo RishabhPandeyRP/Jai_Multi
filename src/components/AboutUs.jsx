@@ -155,7 +155,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col-reverse lg:flex-row-reverse border  border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
+                <div className="flex flex-col-reverse lg:flex-row-reverse   border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
                     <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
                         <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
 
@@ -163,7 +163,7 @@ const AboutUs = () => {
 
                     </div>
 
-                    <div className="flex flex-col gap-5 w-fit pr-[5%] border border-red-500" data-aos="fade-right">
+                    <div className="flex flex-col gap-5 w-fit pr-[5%]  border-red-500" data-aos="fade-right">
                         <span className=" text-[30px] font-[600] text-[#312865]">
                             Our Vision
                         </span>

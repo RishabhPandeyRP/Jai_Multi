@@ -175,7 +175,10 @@ const Certificate = ({ title, description, additionalInfo, imgPath }) => {
 
   return (
     <>
-      <div className="certificate-container flex flex-col-reverse justify-center items-center bg-white shadow-lg p-6 rounded-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-8 gap-[50px] w-full">
+      <div className="certificate-container flex flex-col-reverse justify-center items-center shadow-xl p-6 rounded-sm  hover:shadow-2xl transition-shadow duration-300 ease-in-out mb-0 gap-[50px] w-full bg-black bg-cover bg-fixed"
+        style={{
+          backgroundImage: "url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1600 800%27%3E%3Cg %3E%3Cpolygon fill=%27%2302050c%27 points=%271600 160 0 460 0 350 1600 50%27/%3E%3Cpolygon fill=%27%23040918%27 points=%271600 260 0 560 0 450 1600 150%27/%3E%3Cpolygon fill=%27%23060e23%27 points=%271600 360 0 660 0 550 1600 250%27/%3E%3Cpolygon fill=%27%2308122f%27 points=%271600 460 0 760 0 650 1600 350%27/%3E%3Cpolygon fill=%27%230A173B%27 points=%271600 800 0 800 0 750 1600 450%27/%3E%3C/g%3E%3C/svg%3E')"
+        }}>
         {/* Certificate Image */}
         <div className=" w-fit flex gap-[10%] h-fit mb-4 md:mb-0  border-red-500">
           {imgPath?.map((item, index) => (
@@ -183,7 +186,7 @@ const Certificate = ({ title, description, additionalInfo, imgPath }) => {
               <img
                 src={item}
                 alt={title}
-                className="h-48 w-48 md:h-[200px] md:w-[200px] mx-auto rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out object-fill shadow-md shadow-black/50"
+                className="h-48  w-48 md:h-[200px] md:w-[200px] mx-auto rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out object-fill shadow-md shadow-black/50"
                 onClick={() => openModal(item)}
               />
             </div>
@@ -191,8 +194,8 @@ const Certificate = ({ title, description, additionalInfo, imgPath }) => {
         </div>
 
         {/* Certificate Description */}
-        <div className=" w-fit text-left  border-red-500">
-          <h2 className="text-[30px] font-[600] text-[#312865] mb-2">{title}</h2>
+        <div className=" w-fit text-left  border-red-500 font-raleway">
+          <h2 className="text-[30px] font-[600] text-white mb-2 ">{title}</h2>
           <p className="font-raleway text-[15px] font-[400] text-justify mb-4">{description}</p>
           <p className="font-raleway text-[12px] font-[400] text-justify text-gray-600">{additionalInfo}</p>
         </div>
@@ -208,9 +211,9 @@ const CertificationsList = () => {
   return (
     <div>
       <NavBar></NavBar>
-      <div className="certifications-list max-w-6xl mx-auto p-8 pt-[8%]  border-green-500 flex flex-col justify-center gap-5">
-        <div className="w-full sticky top-[8%] z-10 bg-white  border-green-500 flex justify-center">
-          <span className="font-[600] text-[40px] text-center w-fit border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] mt-[1%]">
+      <div className="certifications-list max-w-6xl mx-auto p-8 pt-[8%] xl:pt-[5%]  border-green-500 flex flex-col justify-center gap-0">
+        <div className="w-full sticky top-[8%] z-10   border-green-500 flex justify-center font-raleway  xl:mb-[2%] backdrop-blur-md">
+          <span className="font-[600] text-[40px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] sm:text-[40px] lg:text-[52px] xl:text-[62px] ">
             Recognitions
           </span>
         </div>

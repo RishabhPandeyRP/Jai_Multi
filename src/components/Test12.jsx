@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-const Test2 = () => {
+const Test12 = () => {
         useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -45,10 +45,19 @@ const Test2 = () => {
     }, []);
 
     const data = [{
-        heading: "Centre Pivot   ",
-        text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
+        heading: "Heat Treatment :",
+        text: 
+            (<div className="flex flex-col gap-5">
+                <p className="text-[25px] font-[500]">A fully equipped heat treatment area with:</p>
+                <div className="flex flex-col gap-2 ml-[2%] text-[20px]">
+                    <p>1.	Bell Furnaces, each with a capacity of 8 tons</p>
+                    <p>2.	Pit Furnaces, each with a capacity of 2 tons</p>
+                    <p>3.	A Quenching Tank with a capacity of 40,000 liters</p>
+                </div>
+            </div>)
+        ,
         imgUrl: mission1
-    },]
+    }]
 
     return (
         <div className="w-full h-[85vh]  border-black scrollbar-hide ">
@@ -68,7 +77,7 @@ const Test2 = () => {
                         <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
                             {data?.map((item, index) => (
                                 <div className={`flex flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
-                                    <div className={`flex font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
+                                    <div className={`flex lg:w-[60%] font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
                                         <span className="text-[32px] font-[600] text-[#312865]">
                                             {item.heading}
                                         </span>
@@ -89,4 +98,4 @@ const Test2 = () => {
     )
 }
 
-export default Test2;
+export default Test12;

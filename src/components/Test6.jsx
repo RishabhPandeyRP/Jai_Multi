@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-const Test2 = () => {
+const Test6 = () => {
         useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -45,10 +45,10 @@ const Test2 = () => {
     }, []);
 
     const data = [{
-        heading: "Centre Pivot   ",
-        text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
+        heading: "Rectifier Cum Regulating Unit for 25 kW & 4.5 kW Brushless Alternator ",
+        text: "The Rectifier Cum Regulating Unit (RRU) for an alternator in Indian Railways serves multiple essential functions related to converting and regulating electrical power, ensuring a stable and efficient power supply for various on-board systems.",
         imgUrl: mission1
-    },]
+    }]
 
     return (
         <div className="w-full h-[85vh]  border-black scrollbar-hide ">
@@ -89,4 +89,4 @@ const Test2 = () => {
     )
 }
 
-export default Test2;
+export default Test6;

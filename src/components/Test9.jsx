@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-const Test2 = () => {
+const Test9 = () => {
         useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -45,10 +45,31 @@ const Test2 = () => {
     }, []);
 
     const data = [{
-        heading: "Centre Pivot   ",
-        text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
+        heading: "Core Shop :",
+        text:( 
+        <div className="flex flex-col font-raleway   border-red-800">
+            <p className="text-[25px] font-[500]">Intensive sand mixer with batch capacity:</p>
+            <div className="flex flex-col gap-2 ml-[2%]">
+                <p>1. 200kg</p>
+                <p>2. 100kg</p>
+            </div>
+
+            <p className="text-[25px] font-[500]">Processes used to make cores:</p>
+            <div className="flex flex-col gap-2 ml-[2%]">
+                <p>1.	CO₂ Silicate</p>
+                <p>2.	No-bake process</p>
+                <div>
+                    <p>3.	Shell core shooter:</p>
+                    <div className="ml-[5%] mt-[1%]">
+                        <p>MAKE - vee.pee</p>
+                        <p>Capacity - 10 to 15 sets of core/hr</p>
+                    </div>
+                </div>
+            </div>
+        </div>)
+        ,
         imgUrl: mission1
-    },]
+    }]
 
     return (
         <div className="w-full h-[85vh]  border-black scrollbar-hide ">
@@ -67,8 +88,8 @@ const Test2 = () => {
                     <div className=" border-red-500 w-[100%] ">
                         <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
                             {data?.map((item, index) => (
-                                <div className={`flex flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
-                                    <div className={`flex font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
+                                <div className={`flex  border-red-500 flex-col items-center md:items-start ${index % 2 === 0 ? " xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row lg:items-center"}`} key={index}>
+                                    <div className={`flex lg:w-[60%]  border-red-500 font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
                                         <span className="text-[32px] font-[600] text-[#312865]">
                                             {item.heading}
                                         </span>
@@ -89,4 +110,4 @@ const Test2 = () => {
     )
 }
 
-export default Test2;
+export default Test9;

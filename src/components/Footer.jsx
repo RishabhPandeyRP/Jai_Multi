@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="bg-gray-900 text-white py-8">
+    <div className="bg-gray-900 text-white py-8 w-full">
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap mb-8 justify-between  border-green-500 px-10">
           {/* About Us Section */}
@@ -14,7 +14,7 @@ function Footer() {
           </div>
 
           {/* Quick Links Section */}
-          <div className=' border-red-500 flex justify-between md:w-[90%] lg:w-[60%] mt-[10%] lg:mt-[6%]'>
+          <div className=' border-red-500 flex flex-col md:flex-row gap-[50px] md:gap-[0px] justify-between md:w-[90%] lg:w-[60%] mt-[10%] lg:mt-[6%]'>
             <div className="w-full md:w-1/4 lg:w-[33%] pl-2">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-400 text-sm md:text-base">

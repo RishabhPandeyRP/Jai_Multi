@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-const Test2 = () => {
+const Test15 = () => {
         useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -45,15 +45,35 @@ const Test2 = () => {
     }, []);
 
     const data = [{
-        heading: "Centre Pivot   ",
-        text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
+        heading: "Quality Assurance - Physical Lab :",
+        text: 
+            (<div >
+                <p className="text-[18px] lg:text-[20px]">Our physical testing lab operates under a rigorous quality control framework, ensuring that all materials and products meet the highest industry benchmarks. Equipment includes:</p>
+
+                <div className="flex flex-col gap-2 ml-[5%] mt-[2%] text-[16px] lg:text-[18px]">
+                    <ul style={{listStyleType:"disc"}}>
+                    <li>Hardness Tester BHN</li>
+                    <li>Universal Testing Machine</li>
+                    <li>Impact Testing</li>
+                    <li>D-Meter</li>
+                    <li>Vickers Hardness Tester</li>
+                    <li>Rockwell Hardness Tester</li>
+                    <li>Immersion Pyrometer</li>
+                    <li>Microscope</li>
+                    <li>Surface Table 3ft x 3ft</li>
+                    <li>Height Gauge</li>
+                    <li>Vernier and Profile Projector</li>
+                    </ul>
+                </div>
+            </div>)
+        ,
         imgUrl: mission1
-    },]
+    }]
 
     return (
-        <div className="w-full h-[85vh]  border-black scrollbar-hide ">
+        <div className="w-full h-fit  border-black scrollbar-hide ">
             {/* <NavBar /> */}
-            <div className=" border-red-500 w-[100%] h-full flex flex-col items-center justify-center pt-[0%] mb-[5%] scrollbar-hide">
+            <div className="  border-red-500 w-[100%] h-full flex flex-col items-center justify-center pt-[0%] mb-[5%] scrollbar-hide">
 
                 {/* Sticky Heading Section */}
                 {/* <div className="border border-red-600 bg-[#0A173B]/100 text-white -mt-2"> */}
@@ -65,9 +85,9 @@ const Test2 = () => {
 
                     {/* Scrollable Section */}
                     <div className=" border-red-500 w-[100%] ">
-                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
+                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[550px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
                             {data?.map((item, index) => (
-                                <div className={`flex flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
+                                <div className={`flex flex-col items-center md:items-start xl:mt-[70px] h-fit ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row "}`} key={index}>
                                     <div className={`flex font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
                                         <span className="text-[32px] font-[600] text-[#312865]">
                                             {item.heading}
@@ -89,4 +109,4 @@ const Test2 = () => {
     )
 }
 
-export default Test2;
+export default Test15;

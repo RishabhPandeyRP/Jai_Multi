@@ -4,10 +4,10 @@ const CorporateOffice = () => {
   const googleMapsUrl = "https://www.google.com/maps?q=Titagarh+Towers+756,+Anandapur,+E.M.+Bypass,+Kolkata+-+700107,+West+Bengal,+India&z=15&output=embed";
 
   return (
-    <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg  border-red-500 w-[90%] mx-auto">
+    <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg border border-[#111827] w-[90%] mx-auto mb-10">
       {/* Left Section with Company Details */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
-        <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA </h2>
+        {/* <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA </h2> */}
         <h1 className="text-left text-3xl font-bold mb-4 text-indigo-800">JAI MULTI ENGINEERING CO.</h1>
 
         <div className="text-left mb-4">
@@ -37,7 +37,7 @@ const CorporateOffice = () => {
       </div>
 
       {/* Right Section with Google Map */}
-      <div className="w-full md:w-1/2 h-64 md:h-80">
+      <div className="w-full md:w-1/2 h-64 md:h-80 border border-neutral-300 rounded-lg shadow-xl">
         <iframe
           src={googleMapsUrl}
           width="100%"

@@ -196,7 +196,7 @@ const NavBar = () => {
                                         Castings
                                     </Link>
                                     <Link
-                                        to="/elctroMechDiv"
+                                        to="/electromechPage"
                                         className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
                                     >
                                         Electro - Mechanical division 
@@ -210,7 +210,7 @@ const NavBar = () => {
                             <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                         </span>
                         <span className="cursor-pointer group">
-                            <Link to="/infra"><span>Infrastructure</span></Link>
+                            <Link to="/infraPage"><span>Infrastructure</span></Link>
                             <div className="transition-all duration-50 ease-out scale-x-0 group-hover:scale-x-100 bg-[#ffffff] h-[5.5%]"></div>
                         </span>
                         <span className="cursor-pointer group">
