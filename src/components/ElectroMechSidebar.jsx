@@ -18,7 +18,7 @@ const ElectroMechSidebar = () => {
     }, [location]);
 
     return (
-        <div className="relative -z-10">
+        <div className="relative ">
             {/* Toggle Button for Mobile */}
             <button 
                 className="md:hidden fixed top-[11%] right-4 z-50 p-2 bg-gray-800 text-white rounded"
