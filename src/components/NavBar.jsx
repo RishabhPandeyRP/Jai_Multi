@@ -159,8 +159,8 @@ const NavBar = () => {
     return (
         <div
             className={`fixed ${
-                navbarBg ? "bg-[#0A173B]" : "bg-[#0A173B]/20"
-            } backdrop-blur-sm w-[100%] md:w-full py-2 shadow-md shadow-[#0A173B]/25 border-[#0A173B]/25 z-30 text-white transition-all duration-300`}
+                navbarBg ? "bg-[#111827]" : "bg-[#0A173B]/20"
+            } backdrop-blur-sm w-[100%] md:w-full py-2 shadow-md shadow-[#0A173B]/25 border-[#111827]/25 z-30 text-white transition-all duration-300`}
         >
             <div className="flex justify-between items-center pl-[3%] pr-[3%] border-green-500 w-full">
                 <div className="border-red-500 flex justify-between md:w-[87%] lg:w-[75%] xl:w-[69%] items-center">
@@ -190,7 +190,7 @@ const NavBar = () => {
                             {dropdownOpen && (
                                 <div className="absolute left-0 mt-2 w-[220px] bg-[#0A173B] text-white rounded-md shadow-lg font-raleway text-[14px]">
                                     <Link
-                                        to="/casting"
+                                        to="/castingPage"
                                         className="block px-4 py-2 hover:bg-[#1e2a4a] transition-all"
                                     >
                                         Castings

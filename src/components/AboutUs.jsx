@@ -68,7 +68,7 @@ const AboutUs = () => {
 
                     <div className="overflow-x-hidden  border-green-500 w-[95%] lg:w-[40%]">
                         <div
-                            className=" border-red-500 text-[14px] md:text-[15px] font-[300] w-[100%] md:w-[100%] flex flex-col gap-6 md:gap-9 "
+                            className=" border-red-500 text-[14px] md:text-[15px] font-[300] w-[100%] md:w-[100%] flex flex-col gap-6 md:gap-9 font-raleway "
                             data-aos="fade-left"
                         >
                             <div>
@@ -95,14 +95,14 @@ const AboutUs = () => {
                 </div>
 
 
-                <div className="w-full h-fit lg:h-fit lg:py-10 border border-[#0A173B] bg-black bg-cover bg-fixed mt-[10%] flex  relative " 
+                <div className="w-full h-fit lg:h-fit lg:py-10 border border-[#0A173B] bg-black bg-cover bg-fixed mt-[10%] flex  relative font-raleway" 
                 style={{
                     backgroundImage: "url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27100%25%27 height=%27100%25%27 viewBox=%270 0 1600 800%27%3E%3Cg %3E%3Cpolygon fill=%27%2302050c%27 points=%271600 160 0 460 0 350 1600 50%27/%3E%3Cpolygon fill=%27%23040918%27 points=%271600 260 0 560 0 450 1600 150%27/%3E%3Cpolygon fill=%27%23060e23%27 points=%271600 360 0 660 0 550 1600 250%27/%3E%3Cpolygon fill=%27%2308122f%27 points=%271600 460 0 760 0 650 1600 350%27/%3E%3Cpolygon fill=%27%230A173B%27 points=%271600 800 0 800 0 750 1600 450%27/%3E%3C/g%3E%3C/svg%3E')"
                 }}>
                     <div className=" border-white flex flex-col lg:flex-row w-[80%] mx-auto justify-between items-center gap-10 my-[5%] lg:my-[0%] lg:gap-10">
                         <div className=" border-white w-[90%] lg:w-[40%] text-white font-railway flex gap-5 flex-col h-fit text-justify" data-aos="fade-right">
-                            <div className=" text-[25px] font-[500]">
-                                MESSAGE FROM OUR LEADER
+                            <div className=" text-[27px] font-[500]">
+                                Message From Our Leader
                             </div>
 
                             <div className="flex flex-col gap-5 text-[14px]">
@@ -120,8 +120,8 @@ const AboutUs = () => {
 
                             <div className="flex flex-col ">
                                 <p className="text-[20px] font-[500]">Sincerely,</p>
-                                <p className="text-[25px] font-[500]">Jai Gopal Goyal</p>
-                                <p className="text-[18px] font-[400]">Owner, Rine Group of Industries</p>
+                                <p className="text-[20px] font-[500]">Jai Gopal Goyal</p>
+                                <p className="text-[20px] font-[400]">Owner, Rine Group of Industries</p>
                             </div>
 
                         </div>
@@ -136,9 +136,9 @@ const AboutUs = () => {
 
 
 
-                <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[85%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
+                <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden font-raleway">
                     <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[550px] lg:w-[2600px]" />
+                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] left-[75%] border-[10px] border-white"/> */}
 
@@ -155,15 +155,15 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[85%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
+                <div className="flex flex-col-reverse lg:flex-row-reverse border  border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
                     <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[550px] lg:w-[2600px]" />
+                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] right-[75%] border-[10px] border-white"/> */}
 
                     </div>
 
-                    <div className="flex flex-col gap-5 w-fit pr-[5%]" data-aos="fade-right">
+                    <div className="flex flex-col gap-5 w-fit pr-[5%] border border-red-500" data-aos="fade-right">
                         <span className=" text-[30px] font-[600] text-[#312865]">
                             Our Vision
                         </span>

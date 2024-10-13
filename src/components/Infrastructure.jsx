@@ -221,7 +221,7 @@ import { useEffect } from "react";
 const Infrastructure = () => {
     const data = [
         {
-            heading: "Core Shop",
+            heading: "Core Shop :",
             text:( 
             <div className="flex flex-col font-raleway   border-red-800">
                 <p className="text-[25px] font-[500]">Intensive sand mixer with batch capacity:</p>
@@ -247,28 +247,28 @@ const Infrastructure = () => {
             imgUrl: mission1
         },
         {
-            heading: "Moulding ",
+            heading: "Moulding :",
             text: 
             (<div className="flex flex-col font-raleway  border-red-800">
                 {/* <p className="text-[45px] font-[500]">Moulding Infrastructure:</p> */}
                 <div className="flex flex-col gap-2">
                     <div>
                         <p className="text-[25px] font-[500]">1.	Arpa-1300</p>
-                        <div className="flex flex-col gap-2 ml-[2%]">
+                        <div className="flex flex-col gap-2 ml-[4%]">
                             <p>MAKE - BMD George Fisher</p>
                             <p>Capacity - 20 moulds/hr</p>
                         </div>
                     </div>
                     <div >
                         <p className="text-[25px] font-[500]">2.	FM-3.0 (High Pressure)</p>
-                        <div className="flex flex-col gap-2 ml-[2%]">
+                        <div className="flex flex-col gap-2 ml-[4%]">
                             <p>MAKE - RHINO</p>
                             <p>Capacity - 20 moulds/hr</p>
                         </div>
                     </div>
                     <div >
                         <p className="text-[25px] font-[500]">3.	No-bake System</p>
-                        <div className="flex flex-col gap-2 ml-[2%]">
+                        <div className="flex flex-col gap-2 ml-[4%]">
                             <p>MAKE - Omega</p>
                             <p>Capacity - 10 moulds/hr</p>
                         </div>
@@ -282,21 +282,21 @@ const Infrastructure = () => {
             imgUrl: mission1
         },
         {
-            heading: "Melting Area ",
+            heading: "Melting Area :",
             text: 
             (<div className="flex flex-col font-raleway  border-red-800">
                 
                 <div className="flex flex-col gap-2">
                     <div>
                         <p className="text-[25px] font-[500]">1.	Arc Furnace</p>
-                        <div className="flex flex-col gap-2 ml-[2%]">
+                        <div className="flex flex-col gap-2 ml-[4%]">
                             <p>MAKE - Megatherm</p>
                             <p>Capacity - 5 Ton</p>
                         </div>
                     </div>
                     <div>
                         <p className="text-[25px] font-[500]">2.	Induction Furnace</p>
-                        <div className="flex flex-col gap-2 ml-[2%]">
+                        <div className="flex flex-col gap-2 ml-[4%]">
                             <p>MAKE - Inductotherm</p>
                             <p>Capacity - Four crucibles with 2.5-ton capacity each</p>
                         </div>
@@ -311,7 +311,7 @@ const Infrastructure = () => {
             imgUrl: mission1
         },
         {
-            heading: "Heat Treatment ",
+            heading: "Heat Treatment :",
             text: 
                 (<div className="flex flex-col gap-5">
                     <p className="text-[25px] font-[500]">A fully equipped heat treatment area with:</p>
@@ -325,17 +325,17 @@ const Infrastructure = () => {
             imgUrl: mission1
         },
         {
-            heading: "Machine Shop",
+            heading: "Machine Shop :",
             text: "The Machine Shop at Pd Steels includes state-of-the-art machinery such as Horizontal Machining Centres (HMC), CNC Vertical Lathe Machines, CNC Boring Machines, Vertical Turning Lathes (VTL), Laser Cutting Machines, and Coordinate Measuring Machines (CMM).",
             imgUrl: mission1
         },
         {
-            heading: "Quality Assurance - Chemical Lab",
+            heading: "Quality Assurance - Chemical Lab :",
             text: "Our quality control process is meticulously designed to ensure that every aspect of production adheres to the highest industry standards. Our chemical laboratory is equipped with state-of-the-art tools for precise and comprehensive analysis. This includes Spectrometers, Sand Testing Machines, Rapid Moisture Tellers, Sand Permeability Testers, Shatter Index Testers, Green Strength Machines, Core Hardness Testers, and Mould Hardness Testers.",
             imgUrl: mission1
         },
         {
-            heading: "Quality Assurance - Physical Lab",
+            heading: "Quality Assurance - Physical Lab :",
             text: 
                 (<div>
                     <p>Our physical testing lab operates under a rigorous quality control framework, ensuring that all materials and products meet the highest industry benchmarks. Equipment includes:</p>

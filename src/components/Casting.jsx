@@ -104,7 +104,7 @@ const Casting = () => {
 
     return (
         <div className="w-[100%]  border-violet-800">
-            <NavBar></NavBar>
+            {/* <NavBar></NavBar> */}
             <div className=" border-red-500 w-[100%] h-auto  flex flex-col items-center justify-center pt-[5%] mb-[5%] mx-auto  md:ml-[0%]">
 
 
@@ -218,7 +218,7 @@ const Casting = () => {
                 </div>
 
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 }
