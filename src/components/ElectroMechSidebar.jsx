@@ -29,7 +29,7 @@ const ElectroMechSidebar = () => {
 
             {/* Sidebar */}
             <div 
-                className={`bg-[#111827] h-[90vh] w-64 font-raleway text-white overflow-y-hidden transition-transform transform ${
+                className={`bg-[#111827] h-[100.1%] w-64 font-raleway text-white overflow-y-hidden transition-transform transform ${
                     isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
                 } md:translate-x-0 fixed md:relative top-[8.5%] md:top-0 left-0 z-40 md:block`}
             >
@@ -57,9 +57,9 @@ const ElectroMechSidebar = () => {
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'cbc' ? 'max-h-40' : 'max-h-0'}`}
                         >
                             {/* Conditionally show full content on hover */}
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'ba' ? "25kW & 4.5kW Brushless Alternator for Railways" : "More details about Brushless Alternator"}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -82,9 +82,9 @@ const ElectroMechSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'rcru' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'rcru' ? "Rectifier Cum Regulating Unit for 25 kW & 4.5 kW Brushless Alternator" : "More details about Rectifier Cum Regulating Unit"}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -107,9 +107,9 @@ const ElectroMechSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'ocu' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'ocu' ? "Oil Cooling Unit For Railways" : "More details about Oil Cooling Unit"}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -132,9 +132,9 @@ const ElectroMechSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'sbc' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'sbc' ? "Types of Switch Board Cabinets" : "More details about Switch Board Cabinets"}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
                 </nav>

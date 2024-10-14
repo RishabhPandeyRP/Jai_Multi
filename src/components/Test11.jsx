@@ -67,7 +67,7 @@ const Test11 = () => {
                 
             </div>
 
-            <p className="text-[25px] font-[500] mt-[2%]">We use bottom-pouring ladles for pouring liquid metal.</p>
+            <p className="text-[21px] font-[500] mt-[2%]">We use bottom-pouring ladles for pouring liquid metal.</p>
             
         </div>)
         ,

@@ -65,10 +65,10 @@ const Test8 = () => {
 
                     {/* Scrollable Section */}
                     <div className=" border-red-500 w-[100%] ">
-                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
+                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto xl:mr-[7%]" id="scrollable-container">
                             {data?.map((item, index) => (
-                                <div className={`flex flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
-                                    <div className={`flex font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
+                                <div className={`flex xl:mr-[5%]  flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
+                                    <div className={`flex xl:w-[65%] font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">
                                         <span className="text-[32px] font-[600] text-[#312865]">
                                             {item.heading}
                                         </span>

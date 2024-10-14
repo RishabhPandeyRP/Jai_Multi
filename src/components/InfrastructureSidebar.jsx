@@ -29,9 +29,11 @@ const InfrastructureSidebar = () => {
 
             {/* Sidebar */}
             <div 
-                className={`bg-[#111827] h-[100vh] w-64 font-raleway text-white overflow-y-scroll transition-transform transform ${
+                className={`scrollbar-hide no-scrollbar bg-[#111827] h-[100.2%] w-64 font-raleway text-white overflow-y-scroll transition-transform transform ${
                     isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
                 } md:translate-x-0 fixed md:relative top-[7.5%] md:top-0 left-0 z-40 md:block pb-[100px] md:pb-[0px]`}
+
+                id="scrollable-container"
             >
                 <div className="text-3xl font-bold text-gray-200 text-center my-3">
                     <Link to="/" onClick={() => setIsSidebarOpen(false)}>Infrastructure</Link>

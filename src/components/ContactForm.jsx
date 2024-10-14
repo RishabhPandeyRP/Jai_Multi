@@ -27,12 +27,12 @@ const ContactForm = () => {
 
   return (
     <div 
-      className="flex justify-center items-center min-h-screen bg-cover bg-center"
+      className="flex justify-center items-center py-[0%]  border-green-500 font-raleway"
       // style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg max-w-4xl w-full">
+      <div className="bg-slate-200/80 border p-8 rounded-lg shadow-xl max-w-4xl w-full">
         <div className="text-left mb-6">
-          <h2 className="text-3xl font-bold mb-2">Send Message</h2>
+          <h2 className="text-3xl font-bold mb-2 text-[#111827]">Send Message</h2>
           <p className="text-gray-600 mb-4">Effortlessly express your thoughts and ideas, and watch your conversations thrive.</p>
         </div>
         <form onSubmit={handleSubmit}>
@@ -106,7 +106,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="text-left">
-            <button type="submit" className="bg-purple-700 text-white px-8 py-2 rounded-md hover:bg-purple-800 transition duration-300">
+            <button type="submit" className="bg-[#111827] text-white px-8 py-2 rounded-md hover:bg-[#111827]/70 transition duration-300">
               Submit
             </button>
           </div>

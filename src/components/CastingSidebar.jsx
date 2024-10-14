@@ -163,7 +163,7 @@ const CastingSidebar = () => {
 
             {/* Sidebar */}
             <div 
-                className={`bg-[#111827] h-[90vh] w-64 font-raleway text-white overflow-y-hidden transition-transform transform ${
+                className={`bg-[#111827] h-[100.1%] w-64 font-raleway text-white overflow-y-hidden transition-transform transform ${
                     isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
                 } md:translate-x-0 fixed md:relative top-[8.5%] md:top-0 left-0 z-40 md:block`}
             >
@@ -191,9 +191,9 @@ const CastingSidebar = () => {
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'cbc' ? 'max-h-40' : 'max-h-0'}`}
                         >
                             {/* Conditionally show full content on hover */}
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'cbc' ? "More details about CBC..." : "More details about CBC..."}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -216,9 +216,9 @@ const CastingSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'cp' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'cp' ? "More details about Center Pivot..." : "More details about Center Pivot..."}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -241,9 +241,9 @@ const CastingSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'abh' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'abh' ? "More details about Axle Box Housing..." : "More details about Axle Box Housing..."}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
 
@@ -266,9 +266,9 @@ const CastingSidebar = () => {
                         <div 
                             className={`overflow-hidden transition-all duration-500 ${expandedOption === 'st' ? 'max-h-40' : 'max-h-0'}`}
                         >
-                            <p className="p-2">
+                            {/* <p className="p-2">
                                 {hoveredOption === 'st' ? "More details about Suspension Tube..." : "More details about Suspension Tube..."}
-                            </p>
+                            </p> */}
                         </div>
                     </NavLink>
                 </nav>

@@ -12,10 +12,11 @@ const ContactPage = ()=>{
     return(
         <div className="flex flex-col gap-0">
             <NavBar></NavBar>
-                <div className="relative w-full h-[45vh]  border-green-600 mb-[0%]">
-                    <img src={heroImg} alt="heroImg" className="w-full h-full border brightness-[60%] object-cover -z-10 " />
+            <div className="w-full  border-green-500 h-[70px]"></div>
+                <div className="flex justify-center py-9 w-full h-fit  border-green-600 mb-[0%]">
+                    {/* <img src={heroImg} alt="heroImg" className="w-full h-full border brightness-[60%] object-cover -z-10 " /> */}
 
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center  font-newspaper text-[27px] md:text-[38px] text-white font-bold w-[54%] md:w-[30%] z-0 ">
+                    <div className=" text-center font-raleway text-[27px] md:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF] font-bold w-[54%] md:w-[50%] z-0 ">
                     Get In Touch:
                     Let's Start a Conversation
                     </div>

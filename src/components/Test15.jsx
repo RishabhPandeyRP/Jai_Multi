@@ -71,7 +71,7 @@ const Test15 = () => {
     }]
 
     return (
-        <div className="w-full h-fit  border-black scrollbar-hide ">
+        <div className="w-full h-[85vh]  border-black scrollbar-hide ">
             {/* <NavBar /> */}
             <div className="  border-red-500 w-[100%] h-full flex flex-col items-center justify-center pt-[0%] mb-[5%] scrollbar-hide">
 

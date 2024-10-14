@@ -73,7 +73,7 @@ const Test10 = () => {
                 </div>
             </div>
 
-            <p className=" text-[25px] mt-[3%]">A fully automated sand reclamation system minimizes wastage of sand and reduces environmental degradation.</p>
+            <p className=" text-[21px] mt-[3%] font-raleway font-[500]">A fully automated sand reclamation system minimizes wastage of sand and reduces environmental degradation.</p>
             
         </div>)
         ,

@@ -4,7 +4,7 @@ const CorporateOffice = () => {
   const googleMapsUrl = "https://www.google.com/maps?q=Titagarh+Towers+756,+Anandapur,+E.M.+Bypass,+Kolkata+-+700107,+West+Bengal,+India&z=15&output=embed";
 
   return (
-    <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg border border-[#111827] w-[90%] mx-auto mb-10">
+    <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg border border-[#111827] w-[90%] mx-auto mb-10 xl:mt-14">
       {/* Left Section with Company Details */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
         {/* <h2 className="text-left text-xl font-semibold mb-2 text-gray-500">INDIA </h2> */}

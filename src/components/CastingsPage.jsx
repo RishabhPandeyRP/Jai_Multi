@@ -15,13 +15,13 @@ const CastingsPage = () => {
         <div className="w-full h-full  border-green-500">
             <NavBar></NavBar>
             <div className="h-[67px] w-full  border-green-500"></div>
-            <div className="flex w-full h-[90vh]  border-red-500">
+            <div className="flex w-full h-[100%]  border-red-500">
                 <CastingSidebar />
-                <div className="flex-1 p-6  border-red-600  h-[100vh]">
+                <div className="flex-1 p-6  border-red-600  h-[100%]">
                     <Outlet />
                 </div>
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     )
 }
