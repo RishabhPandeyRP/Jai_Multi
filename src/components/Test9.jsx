@@ -49,19 +49,19 @@ const Test9 = () => {
         text:( 
         <div className="flex flex-col font-raleway   border-red-800">
             <p className="text-[25px] font-[500]">Intensive sand mixer with batch capacity:</p>
-            <div className="flex flex-col gap-2 ml-[2%]">
+            <div className="flex flex-col gap-2 ml-[2%] text-[21px]">
                 <p>1. 200kg</p>
                 <p>2. 100kg</p>
             </div>
 
             <p className="text-[25px] font-[500]">Processes used to make cores:</p>
-            <div className="flex flex-col gap-2 ml-[2%]">
+            <div className="flex flex-col gap-2 ml-[2%] text-[21px]">
                 <p>1.	CO₂ Silicate</p>
                 <p>2.	No-bake process</p>
                 <div>
                     <p>3.	Shell core shooter:</p>
-                    <div className="ml-[5%] mt-[1%]">
-                        <p>MAKE - vee.pee</p>
+                    <div className="ml-[5%] mt-[1%] text-[21px]">
+                        <p>Make - vee.pee</p>
                         <p>Capacity - 10 to 15 sets of core/hr</p>
                     </div>
                 </div>

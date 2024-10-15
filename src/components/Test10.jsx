@@ -52,22 +52,22 @@ const Test10 = () => {
             <div className="flex flex-col gap-2">
                 <div>
                     <p className="text-[25px] font-[500]">1.	Arpa-1300</p>
-                    <div className="flex flex-col gap-2 ml-[5%]">
-                        <p>MAKE - BMD George Fisher</p>
+                    <div className="flex flex-col gap-2 ml-[5%] text-[21px]">
+                        <p>Make - BMD George Fisher</p>
                         <p>Capacity - 20 moulds/hr</p>
                     </div>
                 </div>
                 <div >
                     <p className="text-[25px] font-[500]">2.	FM-3.0 (High Pressure)</p>
-                    <div className="flex flex-col gap-2 ml-[5%]">
-                        <p>MAKE - RHINO</p>
+                    <div className="flex flex-col gap-2 ml-[5%] text-[21px]">
+                        <p>Make - Rhino</p>
                         <p>Capacity - 20 moulds/hr</p>
                     </div>
                 </div>
                 <div >
                     <p className="text-[25px] font-[500]">3.	No-bake System</p>
-                    <div className="flex flex-col gap-2 ml-[5%]">
-                        <p>MAKE - Omega</p>
+                    <div className="flex flex-col gap-2 ml-[5%] text-[21px]">
+                        <p>Make - Omega</p>
                         <p>Capacity - 10 moulds/hr</p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const Test10 = () => {
 
                     {/* Scrollable Section */}
                     <div className=" border-red-500 w-[100%] ">
-                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[500px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
+                        <div className="scroll-container w-[90%] md:w-[95%] h-fit xl:h-[520px] overflow-y-scroll scrollbar-hide no-scrollbar flex flex-col gap-[100px] md:gap-[200px]  border-green-500 mt-[15%] md:mt-[0%] mx-auto" id="scrollable-container">
                             {data?.map((item, index) => (
                                 <div className={`flex flex-col items-center md:items-start ${index % 2 === 0 ? "xl:flex-row-reverse gap-10 md:gap-28 sm:flex-col lg:items-center" : "gap-10 lg:gap-5 sm:flex-col lg:flex-row"}`} key={index}>
                                     <div className={`flex lg:w-[60%] font-raleway flex-col gap-5 ${index % 2 === 0 ? "pr-[0%]" : "pr-[10%]"}`} data-aos="fade-right">

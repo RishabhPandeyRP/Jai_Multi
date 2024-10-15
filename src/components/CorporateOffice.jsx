@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CorporateOffice = () => {
-  const googleMapsUrl = "https://www.google.com/maps?q=Titagarh+Towers+756,+Anandapur,+E.M.+Bypass,+Kolkata+-+700107,+West+Bengal,+India&z=15&output=embed";
+  const googleMapsUrl = "https://www.google.com/maps?q=30.577200391031667,76.89752493588219&z=15&output=embed";
 
   return (
     <div className="flex flex-col md:flex-row justify-between p-6 md:p-12 bg-white rounded-lg border border-[#111827] w-[90%] mx-auto mb-10 xl:mt-14">
@@ -38,15 +38,7 @@ const CorporateOffice = () => {
 
       {/* Right Section with Google Map */}
       <div className="w-full md:w-1/2 h-64 md:h-80 border border-neutral-300 rounded-lg shadow-xl">
-        <iframe
-          src={googleMapsUrl}
-          width="100%"
-          height="100%"
-          className="border-0 rounded-lg"
-          allowFullScreen=""
-          loading="lazy"
-          title="Titagarh Rail Systems Map"
-        ></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.0137811298564!2d76.89490622561533!3d30.577156374659705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fbe15afabb1a1%3A0x5d81abe980653e93!2sJAI%20MULTI%20ENGG.%20CO!5e0!3m2!1sen!2sin!4v1728974510559!5m2!1sen!2sin" width="100%" height="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
         <div className="mt-4 text-center">
           
@@ -57,3 +49,6 @@ const CorporateOffice = () => {
 };
 
 export default CorporateOffice;
+
+
+

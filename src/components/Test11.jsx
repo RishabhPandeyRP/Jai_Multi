@@ -52,15 +52,15 @@ const Test11 = () => {
             <div className="flex flex-col gap-2">
                 <div>
                     <p className="text-[25px] font-[500]">1.	Arc Furnace</p>
-                    <div className="flex flex-col gap-2 ml-[4%]">
-                        <p>MAKE - Megatherm</p>
+                    <div className="flex flex-col gap-2 ml-[4%] text-[21px]">
+                        <p>Make - Megatherm</p>
                         <p>Capacity - 5 Ton</p>
                     </div>
                 </div>
                 <div>
                     <p className="text-[25px] font-[500]">2.	Induction Furnace</p>
-                    <div className="flex flex-col gap-2 ml-[4%]">
-                        <p>MAKE - Inductotherm</p>
+                    <div className="flex flex-col gap-2 ml-[4%] text-[21px]">
+                        <p>Make - Inductotherm</p>
                         <p>Capacity - Four crucibles with 2.5-ton capacity each</p>
                     </div>
                 </div>

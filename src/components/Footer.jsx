@@ -8,7 +8,7 @@ function Footer() {
           {/* About Us Section */}
           <div className="w-full md:w-1/4 lg:w-[20%] flex flex-col gap-4  border-red-500">
             <img src="/png/image_1.png" alt="Company Logo" className="w-32 h-auto mb-4" />
-            <p className="text-gray-400 text-sm text-justify md:text-base">
+            <p className="text-gray-400 text-sm text-left md:text-base">
               We are a leading manufacturer of high-quality train parts, specializing in the production of components that are critical to the safe and efficient operation of trains. With years of experience in the industry, we take pride in our commitment to excellence and our dedication to providing top-notch products to our customers.
             </p>
           </div>
