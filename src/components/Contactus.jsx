@@ -35,10 +35,10 @@ function Contactus() {
                         class="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-blue-500" value={message} onChange={(event) => setMessage(event.target.value)}></textarea>
 
                     <button type='button'
-                        class="text-white bg-[#0A173B] hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6" onClick={downloadHandler}>Download Brochure</button>
+                        class="text-white bg-[#0051b3] hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6" onClick={downloadHandler}>Download Brochure</button>
                         
                     <button type='button'
-                        class="text-white bg-[#0A173B] hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send Message</button>
+                        class="text-white bg-[#0051b3] hover:bg-blue-600 rounded-md text-sm px-4 py-3 w-full !mt-6">Send Message</button>
 
                 </form>
             </div>
