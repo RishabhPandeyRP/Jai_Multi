@@ -47,7 +47,7 @@ const Test6 = () => {
     const data = [{
         heading: "Rectifier Cum Regulating Unit for 25 kW & 4.5 kW Brushless Alternator ",
         text: "The Rectifier Cum Regulating Unit (RRU) for an alternator in Indian Railways serves multiple essential functions related to converting and regulating electrical power, ensuring a stable and efficient power supply for various on-board systems.",
-        imgUrl: mission1
+        imgUrl: "/SVG/Rectifier.svg"
     }]
 
     return (

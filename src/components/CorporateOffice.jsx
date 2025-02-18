@@ -21,7 +21,7 @@ const CorporateOffice = () => {
           <p>
             <strong>Email Address:</strong><br />
             <a href="mailto:hsdfhshfs" className="text-blue-600 underline">
-              xyz@abc.in
+              support@jaimultiengineering.in
             </a>
           </p>
         </div>
@@ -29,8 +29,8 @@ const CorporateOffice = () => {
         <div className="text-left mb-4">
           <p>
             <strong>Phone Number:</strong><br />
-            <a href="tel:+913340190800" className="text-blue-600 underline">
-              +91-333333333
+            <a href="tel:+919914211146" className="text-blue-600 underline">
+              +91-9914211146
             </a>
           </p>
         </div>

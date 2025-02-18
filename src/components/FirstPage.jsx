@@ -12,7 +12,7 @@ const FirstPage = () => {
         <div>
             <NavBar></NavBar>
             <Hero></Hero>
-            <AfterHero></AfterHero>
+            {/* <AfterHero></AfterHero> */}
             <div></div>
             <Journey></Journey>
             <Clientage></Clientage>

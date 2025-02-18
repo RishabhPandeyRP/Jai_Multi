@@ -47,7 +47,7 @@ const Test2 = () => {
     const data = [{
         heading: "Centre Pivot   ",
         text: "The pivot consists of a cylindrical shaft or pin that is mounted centrally on the truck frame. It is designed to fit into a corresponding socket or receptacle on the wagon body, allowing for rotation.The center pivot supports the entire weight of the wagon body, transferring this weight to the wheel assemblies. It serves as the primary connection point between the body and the trucks.It allows for controlled rotation of the wagon body relative to the trucks. This rotation is essential when the train navigates curves and switches, enabling the wagon to follow the track path smoothly.",
-        imgUrl: mission1
+        imgUrl: "/SVG/CenterPivot.svg"
     },]
 
     return (

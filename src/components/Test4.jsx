@@ -47,7 +47,7 @@ const Test4 = () => {
     const data = [{
         heading: "Suspension Tube",
         text: "The suspension tube is a cylindrical component that connects various suspension elements, including springs and dampers. Its design allows for flexibility and movement while maintaining structural integrity. The suspension tube helps support the weight of the railway vehicle while allowing for controlled movement. It connects the wheel assemblies (trucks) to the car body, facilitating the transfer of loads. It works in conjunction with springs and dampers to absorb shocks and vibrations from the track, enhancing passenger comfort and reducing wear on components. ",
-        imgUrl: mission1
+        imgUrl: "/SVG/SuspensionTube.svg"
     }]
 
     return (

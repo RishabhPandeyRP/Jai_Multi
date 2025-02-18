@@ -47,7 +47,7 @@ const Test3 = () => {
     const data = [{
         heading: "Axle Box Housing  ",
         text: "Axle Box Housing For Indian Railways & Metro Rail. The axle box encases the axle and typically consists of a main body, a cover, and various internal components such as bearings. The primary function of the axle box is to support the weight of the railway vehicle (such as a wagon or locomotive) and transfer this weight to the wheel-sets and track. It ensures proper alignment of the axle with the wheel, which is essential for smooth operation and to prevent uneven wear on the wheels.",
-        imgUrl: mission1
+        imgUrl: "/SVG/AxleBoxHousing.svg"
     }]
 
     return (

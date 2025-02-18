@@ -18,12 +18,12 @@ function Footer() {
             <div className="w-full md:w-1/4 lg:w-[33%] pl-2">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-sm md:text-base">
-                <li><a href="#" className="hover:underline">Home</a></li>
-                <li><a href="#" className="hover:underline">About Us</a></li>
-                <li><a href="#" className="hover:underline">Products Line</a></li>
-                <li><a href="#" className="hover:underline">Certifications</a></li>
-                <li><a href="#" className="hover:underline">Quality</a></li>
-                <li><a href="#" className="hover:underline">Contact Us</a></li>
+                <li><a href="/" className="hover:underline">Home</a></li>
+                <li><a href="/aboutus" className="hover:underline">About Us</a></li>
+                <li><a href="/castingPage" className="hover:underline">Products Line</a></li>
+                <li><a href="/certification" className="hover:underline">Certifications</a></li>
+                <li><a href="/infra" className="hover:underline">Infrastrucutre</a></li>
+                <li><a href="/contactpage" className="hover:underline">Contact Us</a></li>
               </ul>
             </div>
 

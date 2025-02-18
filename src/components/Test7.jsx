@@ -47,7 +47,7 @@ const Test7 = () => {
     const data = [{
         heading: "Oil Cooling Unit For Railways  ",
         text: "In Indian Railways, oil cooling units play a crucial role in cooling electrical equipment, particularly in electric locomotives, maintaining the performance and safety of locomotives, ensuring smooth and reliable train operations across the vast rail network of India.",
-        imgUrl: mission1
+        imgUrl: "/SVG/OilCoolingUnit.svg"
     }]
 
     return (

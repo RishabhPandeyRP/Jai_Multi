@@ -58,7 +58,7 @@ const AboutUs = () => {
                     <div className="relative  border-red-900">
                         <div>
                             <img
-                                src={titGarh}
+                                src="/png/Jaimultico.png"
                                 alt=""
                                 className="h-[300px] w-[250px] md:h-[450px] md:w-[350px] object-contain lg:h-[500px] lg:w-[400px]"
                             />
@@ -144,7 +144,7 @@ const AboutUs = () => {
 
                 <div className="flex flex-col-reverse lg:flex-row  border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden font-raleway">
                     <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
+                        <img src="/png/OurMission.png" alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] left-[75%] border-[10px] border-white"/> */}
 
@@ -163,7 +163,7 @@ const AboutUs = () => {
 
                 <div className="flex flex-col-reverse lg:flex-row-reverse   border-green-500 w-[80%] mx-auto justify-around mt-[10%] gap-[100px] overflow-x-hidden">
                     <div className="relative w-fit mx-auto lg:mx-0" data-aos="zoom-in">
-                        <img src={mission1} alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain" />
+                        <img src="/png/OurVision.png" alt="" className="h-[350px] w-[500px] lg:h-[400px] lg:w-[1700px] object-contain rounded-md overflow-hidden" />
 
                         {/* <img src={mission2} alt="" className="h-[250px] w-[200px] absolute top-[75%] right-[75%] border-[10px] border-white"/> */}
 

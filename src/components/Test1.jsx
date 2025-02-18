@@ -47,7 +47,7 @@ const Test1 = () => {
     const data = [{
         heading: "Coupler Body ",
         text: "The coupler body in freight couplers serves as the main structural component of a railway coupling system, designed to connect and secure freight cars together. Its purpose is critical for the safe and efficient operation of trains, ensuring that the cars remain coupled under various operational conditions, such as heavy loads, impacts, and movements.",
-        imgUrl: coupler
+        imgUrl: "/SVG/CouplerBody.svg"
     },
     {
         heading: "Knuckle  ",

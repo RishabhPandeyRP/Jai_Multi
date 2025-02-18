@@ -79,7 +79,7 @@ const Journey = () => {
     }, [isFixed]);
 
     return (
-        <div className="w-[81%] h-fit  border-blue-400 mx-auto relative bg-white -z-10 mb-[1%]">
+        <div className="w-[81%] h-fit mt-[240px] border-blue-400 mx-auto relative bg-white -z-10 mb-[1%]">
             {/* for heading and text */}
             <div className="flex flex-col gap-[10%] sm:gap-10 lg:gap-5  border-red-500 bg-white">
                 <span className="font-[600] text-[40px] text-center w-fit  border-red-200 mx-auto font-raleway text-transparent bg-clip-text bg-gradient-to-r from-[#0A173B] to-[#0025FF]            sm:text-[40px] lg:text-[52px] xl:text-[62px]  ">

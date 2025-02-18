@@ -47,7 +47,7 @@ const Test8 = () => {
     const data = [{
         heading: "Types of Switch Board Cabinets ",
         text: "The Switch Board Cabinet (SBC) in trains serves as a centralised control and distribution point for electrical systems within a coach or locomotive. It plays a crucial role in managing and protecting the onboard electrical circuits and systems.",
-        imgUrl: mission1
+        imgUrl: "/SVG/SwitchBoardCabinet.svg"
     }]
 
     return (

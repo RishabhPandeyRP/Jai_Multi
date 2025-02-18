@@ -47,7 +47,7 @@ const Test5 = () => {
     const data = [{
         heading: "25kW & 4.5kW Brushless Alternator for Railways ",
         text: "The purpose of alternators in trains is to generate electrical power needed to operate various on-board systems and support key functionalities, such as lighting, air conditioning, communication systems, and auxiliary equipment. Alternators are essential for the efficient operation of diesel-electric and electric trains, where they convert mechanical energy from the engine or traction system into electrical energy.",
-        imgUrl: mission1
+        imgUrl: "/SVG/BrushlessAlternator.svg"
     }]
 
     return (
